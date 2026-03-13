@@ -1,0 +1,3750 @@
+RTCA, Inc.
+
+1828 L Street, NW Suite 805
+
+Washington, DC 20036
+
+RTCA/DO-160G
+
+Environmental Conditions and Test
+Procedures for Airborne Equipment
+
+Section 16
+
+Power Input
+
+Important Notice
+
+Information contained in these sections is pertinent to all
+test procedures described in the other sections of this
+document. Further, Appendix A is applicable for
+identifying environmental tests performed.
+
+Date of Issue: Supersedes: RTCA DO-160F
+December 8, 2010 Prepared by: SC-135
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Not for Resale.2016-02-16 13:45:42 UTC
+TABLE OF CONTENTS
+
+16 PO WER UINP UD sasecssperssedvcesazstee dy susdeasovteaber lovdaadeqsaahit laslacteclaptacdit ations aatniuan nieGiaaaesan 16-1
+16.1 Purpose Of the Test .........s-ccssscssecsenrecsnssosscsssssnsnassoacaeabaciedevodacsessansssbsnansuusiaansassnsagbadeasstisuaenbess 16-1
+16.2 Equipment Categories and Test Designations ........ccccssssesescsceresessesssersteeeeetersenetseeessenseeeesens 16-1
+16.3 Emergency Electrical System Operation .......cccccsessesssssseseseseeesesesesseseneessseeenseeseseeseeneneeasens 16-4
+16.4 Standard Electrical Power Input Parameters (€C) ....c.sccsssssssesesscseseeeseecseeseseeseenseerseeneneraeaes 16-4
+16.5 Electrical Power Input Parameter Limits (€C).....cccscsscsssssssseseeessesseeeseaeseeesseeesseneenenenesneaenes 16-5
+
+16.5.1 Normal Operating Conditions (AC) .....ccsssesssssseseesesesssesseecseeeeseeeseeseaeeeeeeseteeasneeseneeeenaanenes 16-5
+16.5.1.1 Voltage ‘and Frequency (aC) ,.ccccscescasveccssasovssscscoseesseescaseessecsecascaransaenesacosgenstegeenseseseneas 16-6
+16.5.1.2 Voltage Modulation (aC) .......:sscscscssssssssssscscssssessessssssnesessessenseacesenesseneeseseesesasoeseasoves 16-8
+16:5.1.3 Frequency Modulation (a0)......ccc.cssessessccscscsssvassssesascssccossatascvessetevaveasesessascesesesseaesesens 16-9
+16.5.1.4 Momentary Power Interruptions (aC)... ccscsssssseessesesessescseeeseseeesseseeeeseneesenenaeasuens 16-10
+165.2155, ~ Normal TranSictits (AC) w.r.s.dcececsossonsonssasaepecsaciouectscsgdecsentsodesbestendevtancseaxaaerosdensaseuaste 16-12
+
+16:51.5.1 Normial Surge Voltage (ac) s.siccissccrcosessrovesecsssensassanosnicsbestenseadessacssbanevesdnsnnsestedy 16-12
+16.5.1.5.2 Normal Frequency Transients (All ac Equipment) ........cccccssseeseeeeseeecteeeseneneees 16-13
+16.5.1.6 Normal Frequency Variations (A(NF) and A(WF) Category Equipment Only) ...... 16-14
+16.5.1.7 Voltage DC Content (AC) .::..sccseccsssosevesssssssnscscnastscccarsscscssessesesscasancessaavaceseseesecsenseoes 16-14
+L6.5:1.8 — Voltage Distortion (a6) \cisisssscsscssacazasssessovevacsseiaacessvsesoosasesevaesiscnseitaisai sacs opnsdeeaues dasees 16-15
+PGS USA Definitions .;.sssccsaSsvceaseizeess saeco: saved sanaseovasvss wwaassasersease deedsetscaeieeeuddesiaoeasavoedsesecnsdau 16-15
+16:5:1:8:1.1, Total Hatmonic. Distortions. .scicsssssssssseseccestsssponesastenssszivdsscescetevevsanesiseeveesnteles 16-15
+16.5.1.8.1.2 Individual Harmonic Content ..........cccssssssssccsscessceseessesseeseeseeceseseeneceaeensenaes 16-15
+
+TOS 182 “REQUIPCIICNE: 55 sscczeciaes sasccspccndeucenseov'ess seve shasoees es soeseunenvenesnsceontastgensatycaptenoatecsteetee 16-15
+
+16.5.2 Abnormal Operating Conditions (C)....cccceeeesesesscsssessesesecsseeseseeecesseseeeseeeceeeseeeeeseneaes 16-16
+16.5.2.1 Abnormal Voltage and Frequency Limits in Steady State (AC)......sscceseeeeeereeees 16-16
+16.5.2.2 Momentary Undervoltage Operation (aC) ......ccsccsesesseseeceseeseessseesesenteeeseerseeseeeesens 16-18
+16:5:2.3. Abnormal'transients: (AC)... 1...:.sccscsssasasscescosesserscessesssencovsvasnscacsonsseisecanessetoscssusoateaesacons 16-19
+
+16.5.2.3.1 Abnormal Surge Voltage (€C) ..:.....ccsssscrsssesssscsssssnsssecssssessseseneseessenteseenesneeseseees 16-19
+16.5.2.3.2 Abnormal Frequency Transients (aC) ......ccscscssesessesscsesseseeseeseeeaseesseeseeeeneeneneeens 16-20
+16.5.2.3.3 Abnormal Frequency Variations (A(NF) and A(WF) Equipment Only)............ 16-21
+16.5.2.4 Loss of Phase Input (Three Phase ac Input Only) .........ccscsesssseseseeseseteseeeeeeteteenesenees 16-21
+16.6 Electrical Power Input Parameter Limits (dC) .....ccccsssssscsseeesesseseesessesesaseessenseseeeeseaeneeeeas 16-23
+
+16.6.1 Normal Operating Conditions (dC)......csccsscssecssssssessersseeseesesesenesesssnscsesseeesesseesesseneeees 16-23
+16.6.1.1 Voltage (Average Value de) ......sccscssssssssscssssscsnsssssseseesessesssassseesssensessseseseassnceseenees 16-23
+16.6,1.2 Ripple Voltage (dC)....cscacsossecssososvastosebsiencsssavsesssscsosieoeatsenccessnapactusnseseacacencessrsceseesees 16-24
+16.6.1.3 Momentary Power Interruptions (dC)... cccccssessessssesessesesseseesesessesensesnenaesneneeneenens 16-25
+16.6.1.4 Normal Surge Voltage (d).........c.cscsscsscsssssssssssssssssssesscesssesesssssacsssacssesarensenssresseens 16-27
+16.6.1.5 Engine Starting Under Voltage Operation (dC)........ccccscsesesseeeseseeeseneeesneeeteeeenenenenens 16-28
+16.6.1.6 Exposed Voltage Decay Time (de, Category D Equipment Only) ........ssseeceeerres 16-29
+
+16.6.2 Abnormal Operating Conditions (C).......ccccsssecsccsesecseeseeeeeeceeaeeessceeenseasteeensecnsseseareeey 16-30
+16.6.2.1 Voltage Steady State (de)...cccsccssssesssossssoesscssssosessesessecesensssesessesseetscesssnsessesesseseeoees 16-30
+16.6.2.2 Low Voltage Conditions (dc, Category B Equipment Only).......csccsceseseesneeeeeeens 16-30
+16.6.2.3. Momentary Undervoltage Operation (AC).....ccccsssscsesecseseseeseseneeecenetereeneeneeeseneraeees 16-31
+16.6.2.4 Abnormal Surge Voltage (dC)... cescssssessessscssssesscssesessesessessssessseessessesseeeeneateeey 16-32
+
+16.7 Load Equipment Influence on Aircraft Electrical Power System (ac and dC)... 16-3
+
+16.7.1 Current Harmonic Emissions from Loads (ac), Designation H .......ccsccsssseseseeeseeereeens 16-34
+WOT - De GiGONS ss deascsssvecevencecacceeescdausesdesauaiss saat sac sticedssavedsdcedsscounansuacsaieeresememanyetyiaamaaeet 16-34
+L69,1-2° ~“Cutrent DistottiOtinscescccosesasasseatecevecescsecspegeessevssdveses inonsparsdecaapercavatozessascereaapeecomedennens 16-34
+16.7.1.3. Current Distortion Verification Requirements.........cccscseseseeseseesesessteeeaesteeeeeeenes 16-34
+
+16.7.2 Allowable Phase Unbalance (Three Phase ac Input Only)......ccccccssessessereeseeeeeseseeeeneens 16-37
+
+Copyright RTCA, Inc. Order Number: 02093010
+Provided by IHS under license with RTCA, Inc. Sold to;ETIHAD AIRWAYS ENGINEERING [0482891 10575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC.
+WGs7sQeL, DCEMU OMS ia sscese sisecsciaeseesvcsasoss dassatesaceascaseaczescissszssssnscassssessenssasseectecesdesseoucesaebanseanenas 16-37
+
+WG S722. RSC UIT CIS TAS saints dase os ie Ss vada ies ois es venus secas'ev ede os aaa ag ceaisnogs beste en etacecutsvatSereseneshaees 16-38
+16.7.3 DC Current Content in Steady-State Operation (All ac Equipment) 0.0... cece 16-38
+LOPPSL. TSR T LOT 555 ses; scceswesacvessseuczsseczacadtaeseioesessentiss ssh tsa; dasbucasaeas aedas Ooaabstsedusouaysaseaonvebuntis 16-38
+16,7732, ~ FREQUILCMEN asi: ais skscasshsncivanetescesvincd sansa daisssspadsscediatéessoctdsscancaassteateasss eoeeseees same eeiae 16-3
+16.7.4 Regenerated Energy (dc, Category D Equipment Only)... cceccsssssessssseseeeesesseeenneees 16-39
+GPAs. DSR ON 2 secezceyesaxtei0arcee reason ceecdacanscsueeto sapsaasdouacs ig tiseaateatuensssaaseatageteoe eye TaNNOS 16-39
+Ge 7AD:-~ REGUIRSMIGIE sex cerescyorwssiavcnrscvascacvadissve dhs cenvessousiseadhonozeezsesdentonnes des seassaiaes satan seMaTeatedeedee 16-39
+16.7.5  Inrush Current Requirements (ac and de), Designation I... ccc ecssssesesecesesessceseeeseseenees 16-40
+Dg 7e5e Ul” VSL OR sz cous eaieay xu tay coe: Seascale Noes casaet vahiens oo ous aaa siavanvs vcd aasncnnducncanctuen loti Wesieasisiaaness 16-40
+L6.75:D) REGQUIFEMIEIIS cizcccsvocedssdveis hice ivdacotes Sesuddgvagnabeatvadens dusdatlAisagld Mnnnaaatien svsorendsedsyey Sovatents 16-40
+16.7.6 Current Modulation in Steady-State Operation (ac), Designation Lu... iceceseesseseereeees 16-41
+VOS7:6.1 eH MOMs cccceccassssaessoatagcastestontsatante eidiciieshieteava staves noid ase eaiiaia ds aidan 16-41
+PEPGS2:, . REGUITEMIGND. 4: cas deescciseccessastsanesaatencessqeasgaastactactaceigag ease gentauts hashacdsadaavadaonaadedidat@iaveals 16-42
+16.7.7 DC Current Ripple tests (dc), Designation Rui... escscsssesessseessssssssesesscseeesseseeesseseeeees 16-42
+VGOsZEFel, TDG TTTIOIN sess asaentsszsnastassgenonsteosanasntaswonseceranerarceneveansecensecoanecerensyveseressecenapeeespeonquesomeens 16-42
+NG s77 52. TRE GUIPG RA CLA sgevsecceices As tists dan veas izes schsnnanas vosescchecbelescsbesy osha sage dtvedacbageieaasWaatekoas sa tiadte 16-43
+16.7.8 Power Factor (All ac Equipment), Designation Po... cseseecssesesecsseeseessssesecessseecsaeees 16-44
+| Copa te et D Yes nna tora eeareeeer err teers entre tre ae te Corn ice tere teeta rr eer er ere 16-44
+LORZi822:- TREQUINCHICI Tc cscccsscseautis apszadessnaseescnasbesicataeacessesy Os ssacbaarnaONTEN saa TEaG See ReaD 16-44
+Copyright RTCA, Inc. ¢ Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+Copyright RTCA, Inc.
+
+Table 16-1
+Table 16-2
+Table 16-3
+Table 16-4
+Table 16-5
+Table 16-6
+Table 16-7
+
+Figure 16-1
+Figure 16-2
+Figure 16-3
+Figure 16-4
+Figure 16-5
+Figure 16-6
+Figure 16-7
+Figure 16-8
+Figure 16-9
+Figure 16-10
+Figure 16-11
+Figure 16-12
+
+Provided by IHS under license with RTCA, Inc.
+
+No reproduction or networking permitted without license from IHS
+
+LIST OF TABLES
+
+Test Conditions for All AC Equipment..........ccccccceseseenecssessssereeeseeseeseseesecssassessseseeesenee 16-46
+Additional Test Conditions for A (NF) and A(WF) Category Equipment... cee 16-47
+Test Conditions for DC Equipment with Digital Circuits 0.0... eset ceecseseeeesseeeeseeeesneees 16-48
+Current Harmonic Limits for Single-Phase Electrical Equipment .........ccscescseseseeseseeees 16-49
+Current Harmonic Limits for Balanced Three-Phase Electrical Equipment ..............006 16-49
+Test Designation H Test Condition 2 Compliance Table..........ccssssesssessssessesceeseseseesees 16-50
+Test Conditions for DC Equipment with Digital and Memory Circuits ........ccceeseeeeees 16-51
+LIST OF FIGURES
+Frequency Characteristics of AC Voltage Modulation Envelope ..........csseseeeeeeeseeeens 16-52
+Characteristics of AC Frequency Modulation ........ccccscscseeeceeceeeeeeeeseesesseeeeseeseaneeses 16-53
+AC Equipment Surge Voltage. Test x... isscdcesscasssissasssgessssaseveswersenesseossveseaneneaasiascessaces 16-54
+DE Equipinient Surge Voltage Testi. ics isccsssocssvesdsossadeasesnsvnens sasoseatesdevesseansedvesosersanseees 16-55
+Envelope of AC Abnormal Voltage Surges......cccssessessssssesssscssessssscsessssesessseseeseseeeses 16-56
+Typical Abnormal DC Surge Voltage Characteristics.......ccsccsessesssersessseeescseeecsesenees 16-57
+Typical Current Harmonic Measurement Diagrams.........cccsssesessesssesessessseseereseeeesenees 16-58
+Typical Voltage Distortion Circuits for Harmonic Testing .........ccccscsssssseeseesseseeeseeens 16-59
+AC Single-Phase Equipment DC Offfset Test......cccssccsssecscessssssssscsscsesessseeseeseeseeees 16-60
+AC Three-Phase Equipment DC Offset Test....... cc cssssssssssesssscessssscseescsstesseseeeseees 16-61
+Allowable Phase Unbalance for Three Phase AC Loads.......cessseesesesscssessssssessseesenees 16-62
+270 V de Regenerated Energy Test Setup ........cccssssssssssssessscessessesseessesessserssrsoseesssons 16-63
+Order Number: 02093010
+
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-1
+
+16 Power Input
+
+16.1 Purpose of the Test
+
+This section defines test conditions and procedures for ac and dc electrical power applied to
+the terminals of the equipment under test. It covers the following electrical power supplies:
+
+e 14 Vdc, 28 V dc and 270 V de
+115 Vrms ac and 230 Vrms ac at either a nominal 400 Hz frequency or over a
+variable frequency range which includes 400 Hz.
+
+Equipment categories and frequency classes, test conditions and procedures for equipment
+using other electrical power supplies must be defined in applicable equipment performance
+standards.
+
+16.2 Equipment Categories and Test Designations
+
+The marking of equipment consists of:
+First a category reference:
+e Forac equipment: A(CF), A(NF) or A(WF)
+e Fordc equipment: A, B,D or Z
+Next, for all ac equipment, the category reference is followed by additional test designation
+letters to indicate if the equipment has to be subjected or not to the following tests:
+e ac harmonic tests (letter H) or not (letter X),
+e accurrent modulation tests (letter L) or alternate test (letter Z)
+e ac power factor tests (letter P) or alternate test (letter Z),
+
+e ac inrush tests (letter I) or alternate test (letter Z) or not (letter X)
+
+Next, for all dc equipment, the category reference is followed by an additional test
+designation letters to indicate if the equipment has to be subjected or not to the following
+tests:
+
+e dccurrent ripple tests (letter R) or not (letter X),
+e dc inrush current tests (letter I) or alternate test (letter Z) or not (letter X).
+
+AC only equipment test designations (such as the letter H) are not to be marked after dc
+equipment categories (such as A, B, D or Z). DC only equipment test designations (such as
+the letter R) are not to be marked after ac equipment categories (such as A(CF), A(NF) or
+A(WF)).
+
+Should the unit accept both ac and de power, the marking should first list the ac equipment
+category followed by all of the ac test designations then list the dc equipment category,
+followed by all of the dc test designations.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD-AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-2
+
+Categories A(CF), A(NF), A(WF) and A
+
+Equipment intended for use on aircraft electrical systems where the primary power is from a
+constant or variable frequency ac system and where the dc system is supplied from
+transformer-rectifier units, is identified as:
+
+e forac equipment: Category A(CF), A(NF) or ACWF),
+e fordc equipment: Category A.
+
+A(CF) designates ac equipment intended for use on aircraft electrical systems where the
+primary power is from constant frequency (400 Hz) ac system.
+
+Note: A(CF) designates the same equipment as the ac ones designated by Category A
+in DO-160/ ED14 issues A to D.
+
+A(NF) designates ac equipment intended for use on aircraft electrical systems where the
+primary power is from narrow variable frequency (360 to 650 Hz) ac system.
+
+A(WF) designates ac equipment intended for use on aircraft electrical systems where the
+primary power is from wide variable frequency (360 to 800 Hz) ac system.
+
+"A" designates 28 V dc equipment intended for use on aircraft electrical systems where the dc
+is generated from primary power supplied from either a constant or variable frequency ac
+system. Category A de equipment may have a battery floating on the dc bus.
+
+Category B
+
+14 V or 28 V dc equipment intended for use on aircraft electrical systems supplied by engine-
+driven alternator/rectifiers, or dc generators where a battery of significant capacity is floating
+on the dc bus at all times, is identified as Category B.
+
+Category D
+
+270 V dc equipment intended for use on aircraft electrical systems where the dc is generated
+from primary power supplied from either a constant or variable frequency ac system, is
+identified as Category D
+
+Category Z
+
+28 V de equipment that may be used on all other types of aircraft electrical systems applicable
+to these standards is identified as Category Z. Category Z shall be acceptable for use in lieu
+of Category A or Category B. Examples of this category are dc systems supplied from
+variable speed generators where:
+
+a. The dc supply does not have a battery floating on the de bus, or
+
+b. — The control or protective equipment may disconnect the battery from the dc bus, or
+
+c. The battery capacity is small compared with the capacity of the de generators.
+
+AC Distortion Tests: Designation H
+
+This test designation relates to ac equipment with an individual maximum power
+consumption greater than 35 VA or installations where the combined power consumption of
+multiple units (of the same equipment type) is greater than 150 VA. For such equipment, the
+current distortion tests of section 16.7.1 have to be performed if required by the equipment
+
+performance standards.
+
+© 2010 RTCA, Inc.
+
+Copyright RTGA, Inc.
+Provided by IHS under license with RTCA, Inc.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+
+AC Current Modulation Control Tests: Designation L
+
+This test designation relates to ac equipment where the current ripple (or current modulation)
+drawn from the EUT is controlled. AC powered equipment that meets the requirements of
+this test designation is to be marked with test designation L. Equipment that does not meet the
+requirements of designation L is to still be tested (report levels only) and is marked with test
+designation Z (other test criterion.)
+
+AC Power Factor Tests: Designation P
+
+This test designation relates to ac equipment where the power factor of the ac power drawn
+by the EUT is controlled. AC powered equipment that meets the requirements of this test
+designation is to be marked with test designation P. Equipment that does not meet the
+requirements of designation P is to still be tested (report levels only) and is marked with test
+designation Z (other test criterion.)
+
+DC current ripple tests: Designation R
+
+This test designation relates to dc powered equipment with an individual maximum power
+consumption greater than 400 W for 28V or 35 W for 270V or installations where the
+combined power consumption of multiple units (of the same equipment type) is greater than
+400 W for 28V or 150 W for 270V. For such equipment, the DC current ripple tests of
+
+section 16.7.7 have to be performed if required by the equipment performance standards.
+
+AC or DC Inrush Current tests: Designation I
+
+This test designation is assigned to ac or de equipment that meets the inrush current
+requirements specified for designation I. For such equipment, the inrush current tests of
+
+section 16.7.5 have to be performed if required by the equipment performance standards.
+Standard Test Tolerances:
+
+Unless otherwise specified in the controlling equipment specification or in the DO-160 test
+procedure:
+
+e For nominal voltages greater than or equal to 100V ac or de, all input power voltages
+shall be held to the higher of +/- 1.0% of the test voltage or +/- 1.0% of the nominal
+operating voltage, (i.e. 0 V ac ona 115V system is 0 V +/- 1.15V ac.)
+
+e For nominal voltages less than 100V ac or de, all input power voltages shall be held
+to the higher of +/- 2.0% of the test voltage or +/- 2.0% of the nominal operating
+voltage, (i.e. 0 V de on a 28 V de system is 0 V +/- 0.56 V dc.)
+
+e All time durations shall to be held to within +/- 10% of the specified amount
+
+e Allrise and fall times shall be less than 1.5 msec between the 10% and 90% points of
+the actual voltage transition.
+
+e All frequencies shall be held to within +/- 1.0% of the specified value.
+
+‘Note: These tolerances are for the purpose of applying standard test procedures to the
+equipment under test and do not reflect the actual tolerances of the aircraft
+power source.
+
+© 2010 RTCA, Inc.
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Nol for Resale,2016-02-16 13:45:42 UTC
+Manual Reset:
+
+Manual Reset is the act of cycling all power to the EUT from on to off back to on to clear an
+EUT fault condition or an EUT latch up. Entering data into the EUT after a test, such as a
+power interrupt, is not considered to be a Manual Reset unless otherwise specified in
+applicable equipment performance standards.
+
+16.3 Emergency Electrical System Operation
+
+Emergency electrical system operation is defined as the condition of the electrical system
+during flight when the primary electrical system becomes unable to supply sufficient or
+proper electrical power, thus requiring the use of an independent source(s) of emergency
+power which is limited in power output capabilities.
+
+16.4 Standard Electrical Power Input Parameters (ac)
+
+Certain electrical parameters are considered standard, i.e., not varying from nominal limits
+throughout the requirements of this section. All tests shall be conducted with the following
+standard parameters:
+
+re
+
+Cl.
+
+c.2.
+
+CAUTION: All mentioned voltage values are for 115 Vrms ac equipment.
+
+Multiply them by 2 for 230 Vrms ac equipment.
+
+Phase Sequence
+
+The voltage of the individual phases of a three phase supply are mutually displaced
+from each other by 120 electrical degrees; they are designated A, B, and C, and reach
+their respective peak values in that sequence.
+
+Phase Displacement
+
+This is the relative displacement between the zero voltage points on the waveforms of
+the three phases. The phase displacement will be within the following limits:
+
+e A(CF) and A(NF) category equipment: 120 + 4 electrical degrees
+© A(WF) category equipment: 120 + 6 electrical degrees
+
+Phase Voltage Unbalance
+
+A(CEF) and A(NF) Category Equipment
+
+For normal electrical system operation, the maximum spread in phase voltages will not
+exceed 6 volts root-mean-square (rms) between the phase with the highest voltage and
+the phase with the lowest voltage for all aircraft operations. This spread will not
+exceed 8 volts rms when the source of power is the emergency power system.
+
+A(WF) Category Equipment
+
+For normal electrical system operation, the maximum spread in phase voltages will not
+exceed 8 volts root-mean-square (rms) between the phase with the highest voltage and
+the phase with the lowest voltage for all aircraft operations. This spread will not
+exceed 10 volts rms when the source of power is the emergency power system.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+
+Order Number. 02093010
+Sold to;ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permilted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-5
+
+d. Voltage waveform crest factor and harmonic content
+
+The voltage waveform will have a crest factor 1.41 + 0.15 and an harmonic content as
+specified in the table below.
+
+total
+
+Maximum voltage individual
+harmonic content (*)
+
+Equipment
+catego
+
+Maximum voltage
+harmonic distortion (*
+
+A(CF) and A(NF 6%
+8%
+
+(*) For related definition, refer to section 16.5.1.8.1.
+
+eA Voltage waveform dc content
+
+For normal electrical system operation, the voltage waveform de content will be within
+the following limits: 0 + 0.20 V dc
+
+f. Requirement
+
+Compliance with subsequent requirements in this section infers compliance under these
+standard conditions.
+
+16.5 Electrical Power Input Parameter Limits (ac)
+
+The following defines quantitatively those parameters of electrical power input that are
+variable and the related test conditions where applicable, and are divided into those
+associated with NORMAL and ABNORMAL electrical system operation.
+
+Testing to A(WF) allows use of A(WF), A(NF) and A(CF) input power.
+Testing to A(NF) allows use of A(NF) and A(CF) input power.
+Testing to A(CF) allows use of A(CF) input power.
+
+Notes:
+1. The power source used should be able to supply the maximum current
+required by the EUT.
+
+2. In the case where multiple power inputs are supplied by the same aircraft
+bus, all connections for these inputs shall be tested simultaneously.
+
+16.5.1 Normal Operating Conditions (ac)
+
+The following conditions and tests are applicable to Category A(CF), A(NF) and A(WF)
+equipment.
+
+CAUTION: All mentioned voltage values are for 115 Vrms ac equipment.
+Multiply them by 2 for 230 Vrms equipment.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permilted without license from IHS. Not for Resale,2016-02-16 13:45:42 UTC.
+16-6
+
+16.5.1.1 Voltage and Frequency (ac)
+
+a.
+
+MAX (Vrms) Average of three phases 120.5 120.5 120.5
+
+Definition
+
+EQUIPMENT CATEGORY
+VOLTAGE
+
+FREQUENCY
+(Hz) Emergency 440
+
+b.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+VOLTAGE _ | Lowest phase 100 100
+MIN (Vrms) Average of three phases 101.5 101.5 101.5
+
+FREQUENCY
+im
+
+Notes:
+
+1. The above mentioned voltage values are at equipment terminals.
+
+2. For ac networks:
+e Nominal voltage is 115 Vrms
+e Nominal frequency is 400 Hz (A(CF) category only)
+
+Requirement for Single Phase Equipment
+
+(1) Operate the equipment at maximum duty cycle for at least 30 minutes for each
+test. DETERMINE COMPLIANCE WITH APPLICABLE EQUIPMENT
+PERFORMANCE STANDARDS during each 30-minute test period. For
+A(CF), the test may be run at the emergency frequency levels to satisfy both
+normal and emergency operating conditions.
+
+Frequency and voltage to be applied at equipment terminals:
+
+TEST | VOLTAGE (Vrms FREQUENCY (Hz
+a EY FFF
+
+122 410
+100 410
+
+(2) For A(CF) category equipment designated to operate under emergency
+electrical system conditions, operate it at maximum duty cycle for at least 30
+minutes for each test. DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS during each 30-minute test
+period.
+
+Frequency and voltages to be applied at A(CF) category equipment terminals:
+
+TEST | VOLTAGE (Vrms) | FREQUENCY (Hz
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [0482891 10575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+c. Requirement for Three Phase Equipment
+
+(onal
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS.
+
+(1)
+
+(2)
+
+Requirement for A(CF) and A(NF) Category Three Phase Equipment
+
+Operate the equipment at maximum duty cycle for at least 30 minutes for each
+test with the primary power adjusted first for a phase balance, then for a phase
+unbalance. DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS during each 30-minute test
+period. For A(CF), the test may be run at the emergency voltage and frequency
+levels to satisfy both normal and emergency operating conditions. For A(NF),
+the test shall be run in the table below for tests 1 through 4. For A(NF), the test
+may be run at the emergency voltage and frequency tests 5 through 8 to satisfy
+both normal operating conditions 5 through 8 and emergency operating
+conditions.
+
+Frequency and voltages to be applied at equipment terminals:
+
+| | ~PhaseA | PhaseB | PhaseC | A(CF) | A(NF) |
+a a a ea
+| 8 {| 100 | 100 | 106 [ 390 | 360 |
+
+For equipment designated to operate under emergency electrical system
+conditions, operate it at maximum duty cycle for at least 30 minutes for each
+test with the primary power adjusted first for a phase balance, then for a phase
+unbalance. DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS during each 30-minute test
+period.
+
+Frequency and voltages to be applied at equipment terminals:
+
+TEST | PHASE A/B/C VOLTAGE (Vrms)
+
+A(NF
+
+| A(NF)_|
+1 120.5 120.5 120.5 440
+| N/A |
+
+oD
+
+120.5 120.5 360
+101.5 101.5 360
+122 122 114 440
+100 100 440
+100 360
+
+© 2010 RTCA, Inc.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale.2016-02-16 13:45:42 UTC
+16-8
+c.2
+
+(1)
+
+(2)
+
+Requirement for A(WF) Category Three Phase Equipment
+
+Operate the equipment at maximum duty cycle for at least 30 minutes for each
+test with the primary power adjusted first for a phase balance, then for a phase
+unbalance. DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS during each 30-minute test
+period.
+
+Frequency and voltages to be applied at equipment terminals:
+
+Phase B
+120.5 800
+101.5 800
+120.5 360
+
+TEST FREQUENCY (Hz
+
+101.5 101.5 360
+122 122 800
+100 100 800
+
+360
+
+100
+
+For equipment designated to operate under emergency electrical system
+conditions, operate it at maximum duty cycle for at least 30 minutes for each
+test with the primary power adjusted for a phase unbalance. DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS during each 30-minute test period.
+
+360
+
+Frequency and voltages to be applied at equipment terminals:
+
+Phase C
+800
+3
+360
+
+TEST
+
+FREQUENCY (Hz
+
+4
+
+2] 00
+nico
+o}O
+
+16.5.1.2 Voltage Modulation (ac)
+
+a.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permilted without license from IHS
+
+Definition
+
+Voltage modulation is the cyclic variation, random variation, or both, about the
+mean level of the ac peak voltage that may be encountered during steady state
+electrical system operation caused by voltage regulation variations and speed
+variations. For 115V ac systems, the voltage modulation will be 5.0 volts
+maximum peak-to-valley difference between the minimum and the maximum
+voltage reached on the modulation envelope or higher as indicated in the
+equipment specification. For 230V ac systems the voltage modulation will be
+twice that of 115V ac systems.
+
+The frequency components of the 115V ac voltage modulation envelope
+waveform will not exceed the limits of Figure 16-1.
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+
+16-9
+
+b. Requirement
+
+The equipment, when subjected to this condition, shall operate within the
+applicable equipment performance standards. Any test requirement, if
+applicable, will be specified in the individual equipment performance standard.
+This test shall be performed with nominal voltage applied to the EUT and with a
+frequency of :
+
+e 400 Hz for A(CF) category equipment
+
+e 360 Hz for variable frequency equipment then repeated with 650 Hz for
+A(NF) category equipment and 800 Hz for A(WF) category equipment.
+
+After adjusting the voltage modulation to match the minimum test levels listed in
+Figure 16-1, dwell for the longer of a minimum of 120 seconds at each frequency
+step or for the time indicated in the equipment specification. The frequency step
+size shall be a minimum of 4 logarithmically spaces steps per decade with
+additional test frequencies at each of the inflection points.
+
+t= h* 19
+
+where,
+fn is a test frequency and n=1 to 4,
+fl is the start frequency, and
+f4 is the end frequency in one decade
+
+16.5.1.3 Frequency Modulation (ac)
+a. Definition
+
+Frequency modulation is the cyclic or random variation, or both, of instantaneous
+frequency about a mean frequency during steady-state electrical system
+operation. The frequency modulation is normally within narrow frequency limits
+and occurs as a result of speed variations in a generator coupling and/or drive
+speed regulation. The variations of primary system frequency due to frequency
+modulation during will be within a band about the mean frequency defined by
+
+Figure 16-2.
+
+b. Requirement
+
+The equipment, when subjected to this condition, shall operate within the
+applicable equipment performance standards. This test shall be performed with
+nominal voltage applied to the EUT and with a mean frequency of :
+
+e 400 Hz for A(CF) category equipment
+
+e 360 Hz for variable frequency equipment then repeated with 650 Hz for
+A(NF) category equipment and 800 Hz for A(WF) category equipment.
+
+After adjusting the width of frequency deviation to match the minimum test
+levels listed in Figure 16-2 at each repetition rate test point, dwell the longer of 5
+repetition rate cycles, 30 seconds or for a time indicated in the equipment
+specification.
+
+The minimum set of test points shall be per the table in Figure 16-2.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-10
+
+If the frequency deviation is applied as discrete frequency steps instead of a
+sinusoidal or a triangular frequency deviation, the repetition rate dwell times
+shall have equal durations within +/- 10% and the maximum frequency deviation
+step size shall be less than or equal to 2.0 Hz. For peak to peak ac frequency
+modulations less than or equal to 2.0 Hz, square wave frequency deviation is
+acceptable.
+
+16.5.1.4 Momentary Power Interruptions (ac)
+
+a.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+Definition
+
+Transfer of power sources can result in power interruptions for periods up to 200
+ms.
+
+For equipment that has more than one power source, consult applicable
+performance standards for the states of the remaining power inputs during the
+testing of power interrupts on any given power input. Multiple primary power
+input connections that are intended to be tied in parallel external to the EUT in
+the installation are considered as the same power source.
+
+Requirement for All ac Equipment
+
+Equipment is sensitive to momentary power interruptions that can cause
+aberrations in performance. Such transient power interruptions may be of any
+function of V-transient and T-transient where V, may have any value between
+V-steady state and zero, and T, may be any value from 0 to 200 milliseconds.
+Since there are a multitude of such combinations, this test procedure selects
+discrete values that are considered effective for determining equipment
+performance.
+
+Test Procedures
+
+The equipment shall be fully operational.
+Nominal voltage shall be applied prior to each test condition.
+
+Concerning frequency:
+
+e A(CF) category equipment: nominal frequency shall be applied prior to
+each test condition.
+e A(NF) and A(WF) category equipment:
+First, all tests will be performed with: 360 Hz +5/-0 Hz.
+Then, all tests will be rerun with:
+e A(NF) category equipment: 650 Hz +0/-5 Hz
+e A(WF) category equipment: 800 Hz +0/-5 Hz.
+
+Data shall have been entered, either manually or automatically, and all related
+displays functioning prior to each test condition.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-11
+
+For each representative operating mode of the equipment, or as specified in the
+applicable performance standards, apply each of the test conditions of Table 16-1
+at least twice. If the difference between maximum and minimum steady state
+current is less than 25% of the maximum steady state current, only the maximum
+steady state current operating mode needs to be tested.
+
+The second successive test application is to be applied after the system has fully
+stabilized. | Monitor the performance of the equipment (including any
+equipment/system normally operated in parallel) both during and subsequent to
+application of each test. Manual reset is not permitted unless otherwise specified
+by the individual equipment specifications.
+
+After exposure to all test conditions, for A(CF) equipment only, DETERMINE
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS. For A(NF) and A(CF) equipment, DETERMINE
+
+COMPLIANCE WITH APPLICABLE _EQUIPMENT _ PERFORMANCE
+STANDARDS after exposure to both 16.4.1.4 b and 16.4.1.4 c.
+
+Note: — Any requirement for performance of the equipment during application
+of test will be specified in the equipment performance standards.
+
+CG; Additional Requirement ( A(NF) and A(WF) Category Equipment Only)
+
+The equipment shall be fully operational.
+Nominal voltage shall be applied prior to each test condition.
+
+For each representative operating mode of the equipment, or as specified in the
+applicable performance standards, apply each of the test conditions of Table 16-2
+at least twice. If the difference between maximum and minimum steady state
+current is less than 25% of the maximum steady state current, only the maximum
+steady state current operating mode needs to be tested.
+
+The second successive test application is to be applied after the system has fully
+stabilized. | Monitor the performance of the equipment (including any
+equipment/system normally operated in parallel) both during and subsequent to
+application of each test. Manual reset is not permitted unless otherwise specified
+by the individual equipment specifications.
+
+After exposure to all test conditions, DETERMINE COMPLIANCE WITH
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+Note: Any requirement for performance of the equipment during application of
+test will be specified in the equipment performance standards.
+
+_. ©2010 RTCA, Ine.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by !HS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Nol for Resale,2016-02-16 13:45:42 UTC
+16-12
+16.5.1.5 Normal Transients (ac)
+
+16.5.1.5.1 Normal Surge Voltage (ac)
+a. Definition
+
+A normal surge is a variation from the controlled steady-state level, resulting
+from the inherent regulation of the electrical power supply system in response to
+disturbances imposed by normal system operations, such as load switching and
+remedial action by the regulator.
+
+b. Requirement
+
+(1) Operate the equipment for five minutes with a voltage of 115 Vrms at
+equipment terminals. Then cycle the voltage three times as indicated
+
+below:
+
+Increase the voltage to:
+e A(CF) and A(NF) category equipment: 160 -0/+6 Vrms for 30 ms.
+
+e A(WF) category equipment: 170 -0/+7 Vrms for 30 ms.
+e Return the voltage to 115 Vrms +/-5 Vrms for five seconds.
+
+e Decrease the voltage to 70 Vrms -3/+0 Vrms for 30 ms.
+
+e Return the voltage to 115 Vrms +/-5 Vrms for five seconds.
+
+The required surge voltages as measured at the input terminals of the
+EUT shall be achieved regardless of the required surge current.
+
+(2) The supply frequency shall be as follows:
+
+e A(CF) category equipment: 400 Hz+ 5 Hz.
+e A(NF) category equipment: run test first with 360 Hz+5/-0 Hz,
+
+then rerun test with 650 Hz +0/-5 Hz.
+e A(WF) category equipment: run test first with 360 Hz +5/-0 Hz,
+then rerun test with 800 Hz +0/-5 Hz
+
+The voltage surges should be applied and monitored in a manner similar
+to that in Figure 16-3.
+
+(3) During the normal electric system surges, DETERMINE COMPLIANCE
+WITH APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+Note: Unless so stated in the equipment performance standard, equipment may
+have degraded performance during the surge and must meet the specified
+performance when returned to nominal voltage and frequency.
+
+(4) Following application of the voltage surges, DETERMINE
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS.
+
+Note: — If the equipment performance standard requires that performance be
+met during the abnormal surge voltage test of subparagraph 16.5.2.3.1
+
+© 2010 RTCA, Inc.
+Order Number. 02093010
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING (0482891 10575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted wilhout license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+
+16-13
+
+and momentary undervoltage test of subparagraph 16.5.2.2, it is not
+necessary to run the above test.
+
+16.5.1.5.2 Normal Frequency Transients (All ac Equipment)
+a. Definition
+
+A normal transient is a momentary variation from the controlled steady-state
+level, resulting from the inherent regulation of the electrical power supply system
+in response to disturbances imposed by normal system operations, such as engine
+speed changes and remedial action by the regulator. This test is performed on
+variable frequency equipment to insure compatibility with constant frequency
+equipment.
+
+b. Requirement
+
+(1) Operate the equipment for five minutes with a voltage of 115 Vrms at
+equipment terminals and a frequency of 400 Hz.
+
+Then cycle the frequency three times as indicated below:
+
+e Increase the frequency to 440 Hz+ 5 Hz for 150 ms.
+
+e Then lower the frequency to 420 Hz+ 5 Hz for 1.5 second.
+e Return the frequency to 400 Hz+ 5 Hz for five seconds.
+e Decrease the frequency to 350 Hz+ 5 Hz for 150 ms.
+
+e Then increase the frequency to 380 Hz+5 Hz for 1.5 second.
+e Return the frequency to 400 Hz + 5 Hz for five seconds.
+
+Transitions between frequency test points shall occur in less than | ms.
+
+(2) During the normal frequency transients, DETERMINE COMPLIANCE
+WITH APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+Note: Unless so stated in the equipment performance standard, equipment may
+have degraded performance during the transients and must meet the
+specified performance when returned to nominal voltage and frequency.
+
+(3) Following application of the frequency transients, DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIMENT PERFORMANCE
+STANDARDS.
+
+Note: If the equipment performance standard requires that performance be met
+during the abnormal frequency transients test of subparagraph
+16.5.2.3.2, it is not necessary to run the above test.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number: 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-14
+
+16.5.1.6 Normal Frequency Variations (A(NF) and A(WF) Category Equipment Only)
+
+a.
+
+Definition:
+
+Frequency variations up to 200 Hz/sec, unless otherwise specified in the
+applicable equipment performance standards, can occur in normal operating
+conditions as a result of quick engine speed changes more particularly during
+aircraft take-off and engine shutdown sequences.
+
+Requirement:
+
+(1) Operate the equipment for five minutes with a voltage of 115 Vrms at
+equipment terminals and a frequency of 360 Hz +5/-0 Hz.
+
+Then, cycle the frequency three times as indicated below:
+Increase the frequency to:
+
+e A(NF) category equipment: 650 Hz+0/-5 Hz
+
+e A(WF) category equipment: 800 Hz +0/-5 Hz
+
+with a constant frequency rate of change of 100 Hz/s, then return the
+frequency to 360 Hz +5/-0 Hz with the frequency rate of change at 200
+Hz/s and maintain the frequency at 360 Hz +5/-0 Hz for five seconds.
+
+(2) During the normal frequency variations, DETERMINE COMPLIANCE
+WITH APPLICABLE EQUIPMENT PERFORMANCE STANDARDS
+
+Note: Unless so stated in the applicable equipment performance standards,
+
+equipment performance shall not be degraded during normal frequency
+
+variations.
+
+16.5.1.7 Voltage DC Content (ac)
+
+a.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+Definition:
+
+A voltage de content up to + 0.20 volt may be encountered during normal steady
+state electrical system operation. This de voltage is the same for both 115V and
+230 V ac systems.
+
+Requirement:
+
+Operate the equipment at maximum duty cycle with a voltage of 115 Vrms at its
+terminals and a frequency as specified in the note below. Apply to each of the
+primary input leads a voltage de offset of -0.200 +0/-0.040 V dc.
+
+The equipment shall operate in these conditions for at least 30 minutes.
+DETERMINE _ COMPLIANCE WITH _ APPLICABLE — EQUIPMENT
+PERFORMANCE STANDARDS during the 30-minute test period.
+
+If the equipment is a three-phase unit, test each phase individually and then all
+phases simultaneously.
+
+Repeat, with a voltage de offset of +0.200 +0.040/-0 V de.
+
+The voltage de offset may be produced as shown in Figure 16-9 for single-phase
+equipment and Figure 16-10 for three-phase equipment.
+
+Order Number: 02093010
+Sold to;ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Nol for Resale,2016-02-16 13:45:42 UTC
+
+16-15
+
+Note: These tests shall be performed with a frequency of:
+e 400 Hz for A(CF) category equipment
+
+e 360 Hz for variable frequency equipment then repeated with 650 Hz for
+A(NF) category equipment and 800 Hz for A(WF) category equipment.
+
+16.5.1.8 Voltage Distortion (ac)
+
+Current draw from non-linear ac loads will cause distortion in the ac voltage waveform
+under normal conditions (for detailed definitions, refer to paragraph 16.5.1.8.1). All ac
+equipment is expected to operate correctly with this distortion present.
+
+16.5.1.8.1 Definitions
+
+16.5.1.8.1.1 Total Harmonic Distortion
+
+The total harmonic distortion of the ac waveform is the ratio of the rms value of the
+harmonics to the rms value of the fundamental. The formula defining total harmonic
+distortion (THD) is provided below. The variable ‘X’ may represent voltage or current,
+and may be expressed as an rms value or a peak value.
+
+ASX;
+THO: = 106
+xX
+
+1
+X, = Fundamental value of current or voltage;
+
+X, =n" harmonic value of current or voltage.
+
+th
+
+Note: The frequency of the n harmonic (F,) is an integer multiple of the
+fundamental frequency F,: F, =n.F,
+
+16.5.1.8.1.2 Individual Harmonic Content
+
+The individual harmonic content is the voltage or current, as applicable, at a given
+harmonic frequency, expressed as a percentage of the fundamental. The formula defining
+individual harmonic content (IHC,) is provided below. The variable ‘X’ may represent
+voltage or current, and may be expressed as an rms value or a peak value. The fraction
+expresses the amount of distortion at the n" harmonic.
+X
+THC, =100 -—* where: X, = Fundamental value of current or voltage;
+1
+X, = nth harmonic value of current or voltage.
+
+16.5.1.8.2 Requirement
+
+Operate the equipment at maximum duty cycle with minimum voltage (as per table in
+subparagraph 16.5.1.1 a.) at its terminals and a frequency as specified below. The voltage
+distortion may be produced via a full-wave rectifier bridge as shown in Figure 16-8. The
+
+© 2010 RTCA, Inc.
+Copyright RTCA, Inc. Order Number 02093010
+Provided by IHS under license wilh RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permilted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-16
+
+level of voltage distortion can be controlled by varying the load on the rectifier(s), and
+insertion of source impedance in the line. Alternatively, input voltage to the EUT may be
+distorted by clipping the supply voltage. The equipment shall operate in these conditions
+for at least 30 minutes.
+
+DETERMINE COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+
+STANDARDS during the 30-minute test period.
+
+This test shall be performed with a frequency of:
+e 400 Hz for A(CF) category equipment
+e 360 Hz for variable frequency equipment then repeated with 650 Hz for A(NF)
+category equipment and 800 Hz for A(WF) category equipment.
+This test shall be performed with a voltage total distortion level (THD,) as follows:
+© 8% +2/-0 % for category A(CF) and A(NF) equipment
+e 10% +2/-0 % for category A(WF) equipment
+
+16.5.2 Abnormal Operating Conditions (ac)
+
+The following conditions and tests are applicable to all ac equipment.
+
+CAUTION: All mentioned voltage values are for 115 Vrms ac equipment.
+Multiply them by 2 for 230 Vrms ac equipment.
+
+16.5.2.1 Abnormal Voltage and Frequency Limits in Steady State (ac)
+
+a. Definition
+
+EOUIEMBNT CATEGURY
+a
+
+VOLTAGE
+(Vrms) ren age of three phases ;
+
+FREQUENCY
+
+(Hz)
+VOLTAGE Lowest phase
+(Vrms) Average of three
+FREQUENCY
+(Hz)
+
+Notes: (1) The above mentioned voltage values are at equipment terminals.
+
+The following power supply frequency shall be applied for the
+requirements included in the paragraphs b. and c. hereafter:
+
+e A(CF) category equipment: 400 Hz
+
+e A(NF) category equipment: _ tests to be performed first with
+360 Hz then with 650 Hz
+
+e A(WF) category equipment: tests to be performed first with
+360 Hz then with 800 Hz.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+
+Provided by IHS under license wilh RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+d.
+
+Copyright RTCA, Inc.
+Provided by IHS under license wilh RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+(2)
+
+16-17
+
+Any requirement for performance of the equipment during application of
+the abnormal voltage and/or abnormal frequency (refer to the
+paragraphs b. to e. below) will be specified in the equipment
+performance standard.
+
+Requirement for Single Phase Equipment
+
+Operate the equipment at maximum duty cycle for at least 5 minutes for
+each test with the voltage at equipment terminals adjusted as mentioned
+in the table below. At the end of each test and with the equipment still
+energized, adjust this voltage to 115 Vrms and DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS.
+
+TEST | VOLTAGE (Vrms
+we pa,
+2 97
+
+Requirement for Three Phase Equipment
+
+Operate the equipment at maximum duty cycle for at least 5 minutes for
+each test with the primary power adjusted first for a phase balance, then
+for a phase unbalance. At the end of each test and with the equipment
+still energized, adjust the average voltage at equipment terminals to 115
+Vrms and DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS
+
+Voltages to be applied at equipment terminals:
+
+TEST EQUIPMENT PHASE A/B/C VOLTAGE (Vrms)
+CATEGORY
+
+Po Phase A_| Phase B_| Phase C |
+3
+
+A(CF) and A(NF
+
+Additional Requirement for Single Phase Equipment (A(CF) Category Equipment
+Only)
+
+Operate the equipment at maximum duty cycle for at least 5 minutes for
+each test. DETERMINE COMPLIANCE WITH APPLICABLE
+
+EQUIPMENT PERFORMANCE STANDARDS during each 5-minute
+test period.
+
+Frequency and voltage to be applied at equipment terminals:
+
+© 2010 RTCA, Inc.
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-18
+
+Additional Requirement for Three Phase Equipment (A(CF) Category Equipment
+Only)
+
+Operate the equipment at maximum duty cycle for at least 5 minutes for
+each test with the primary power adjusted first for a phase balance, then
+for a phase unbalance. DETERMINE COMPLIANCE _ WITH
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS during
+
+each 5-minute period.
+
+Frequency and voltages to be applied at equipment terminals:
+
+TEST | PHASE A/B/C VOLTAGE (Vrms) _| FREQUENCY (Hz
+
+Phase A
+120.5 430
+
+370
+430
+430
+370
+| 8 =| 100 | 100 | 106 ‘| 370
+
+aa
+| ;
+
+101.5 3
+—
+a
+p= ae
+| 6 |
+=a
+
+1
+2
+3
+4
+5
+7
+
+16.5.2.2, Momentary Undervoltage Operation (ac)
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+Definition
+
+Momentary voltages in the range from zero to 97 Vrms may occur for any
+duration up to seven seconds.
+
+Requirement
+
+The equipment, when exposed to this condition, shall operate within the
+applicable equipment performance standards when returned to its normal
+operating voltage range.
+
+With the equipment operating with a voltage of 115 Vrms at its terminals and a
+frequency as specified in the note below, decrease the input ac voltage to 60
+Vrms, or as otherwise specified in the equipment specification, for seven seconds.
+With the equipment still energized, adjust the input ac voltage to 115 Vrms and
+DETERMINE —_ COMPLIANCE WITH — APPLICABLE | EQUIPMENT
+
+PERFORMANCE STANDARDS.
+Repeat with 10 Vrms instead of 60 Vrms.
+Note: These tests shall be performed with a frequency of:
+
+e 400 Hz for A(CF) category equipment
+e 360 Hz for variable frequency equipment then repeated with 650 Hz for
+A(NF) category equipment and 800 Hz for A(WF) category equipment.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+Not for Resale,2016-02-16 13:45:42 UTC
+
+16-19
+
+16.5.2.3. Abnormal transients (ac)
+
+16.5.2.3.1 Abnormal Surge Voltage (ac)
+
+a.
+
+Copyright RTCA, Inc. *:
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted wilhout license from |HS
+
+Definition
+
+An abnormal surge is a variation from the controlled steady-state level, resulting
+from the inherent regulation of the electrical power supply system and remedial
+action by the regulator, such as during fault clearance. The abnormal ac surge
+voltage characteristics shall be within the limits defined by Figure 16-5.
+
+Requirement
+
+With the equipment operating with a voltage of 115 Vrms at its terminals and a
+frequency specified in the note below, apply to the primary input lead(s), a
+voltage surge of 180 Vrms for 100 ms and then reduce the voltage to 148 Vrms
+for one second. The voltage change from one level to another shall be done
+within 1 ms. The voltage is not to return to nominal between the first and second
+surge voltage. The voltage surges should be applied and monitored in a manner
+similar to that in Figure 16-3.
+
+The required surge voltages as measured at the input terminals of the EUT shall
+be achieved regardless of the required surge current.
+
+For single phase equipment apply each surge three times at ten-second intervals.
+
+For three phase equipment apply each surge one time at ten second intervals
+between tests per the table below:
+
+PHASE A/B/C Surge Pattern
+ge
+
+TEST
+
+Monitor the performance of the equipment (including any equipment/system
+normally operated in parallel) both during and subsequent to application of each
+test.
+
+4
+
+Following application of voltage surges, DETERMINE COMPLIANCE WITH
+
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+Note: These tests shall be performed with a frequency of:
+
+e 400 Hz for A(CF) category equipment
+e 360 Hz for variable frequency equipment then repeated with 650 Hz for
+A(NF) category equipment and 800 Hz for A(WF) category equipment.
+
+© 2010 RTCA, Inc.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale.2016-02-16 13:45:42 UTC
+
+16-20
+
+16.5.2.3.2 Abnormal Frequency Transients (ac)
+a. Definition
+
+An abnormal frequency transient is a variation from the controlled steady-state
+level, resulting from the inherent regulation of the electrical power supply system
+and remedial action by the regulator in response to fault condition such as
+abnormal engine speed change. Tests 1 and 2 are performed on variable
+frequency equipment to insure compatibility with constant frequency equipment
+
+b. Requirement
+Test 1, All ac Equipment:
+
+Operate the equipment for five minutes with a voltage of 115 Vrms at equipment
+terminals and a frequency of 400 Hz. Then, perform the following tests.
+
+The following sequence shall be repeated three times. Allow the equipment to
+fully stabilize between each test sequence.:
+
+e Decrease the frequency to 350 Hz + 5 Hz in less than 1 ms and operate
+the equipment for 5 seconds.
+
+e Decrease the frequency to 320 Hz + 5 Hz in less than 1 ms and operate
+the equipment for 200 ms.
+
+e Decrease the voltage to 0 Vrms in less than 1 ms and maintain at 0
+Vrms for 200 -0/+20 ms.
+
+e Return the voltage to 115 Vrms and the frequency to 400 Hz in less than
+1 ms and operate the equipment for 10 seconds.
+
+Test 2, All ac Equipment:
+
+Operate the equipment for five minutes with a voltage of 115 Vrms at equipment
+terminals and a frequency of 400 Hz. Then, perform the following tests.
+
+The following sequence shall be repeated three times. Allow the equipment to
+fully stabilize between each test sequence.
+
+Cycle the frequency three times as indicated below:
+e Increase the frequency to 480 Hz +5 Hz for 200 ms.
+
+e Decrease the frequency to 440 Hz + 5 Hz in less than 1 ms and operate
+the equipment for 5 seconds.
+
+e Decrease the voltage to 0 Vrms in less than 1 ms and maintain at 0 Vrms
+for 200 -0/+20 ms.
+
+e Return the voltage to 115 Vrms and the frequency to 400 Hz in less than
+1 ms and operate the equipment for 10 seconds.
+
+Test 3 A(NF) and A(WF) ac Equipment Only:
+
+Operate the equipment for five minutes with a voltage of 115 Vrms at equipment
+terminals and a frequency of 400 Hz. Then, perform the following tests.
+
+The following sequence shall be repeated three times. Allow the equipment to
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permilted without license from IHS Nol for Resale,2016-02-16 13:45:42 UTC.
+
+16-21
+
+fully stabilize between each test sequence.
+
+e Inless than 1 ms, increase the frequency to:
+e A(NF) category equipment: 680 Hz+ 5 Hz for 200ms
+e A(WF) category equipment: 900 Hz+ 5 Hz for 200ms
+
+e Decrease the voltage to 0 Vrms in less than 1 ms and maintain at 0V
+for 200 —0/+20 ms
+
+e Return the voltage to 115 Vrms and the frequency to 400 Hz in less
+than 1 ms and operate the equipment for 10 seconds.
+
+Following application of the above tests, DETERMINE COMPLIANCE WITH
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+16.5.2.3.3 Abnormal Frequency Variations (A(NF) and A(WF) Equipment Only)
+
+a. Definition:
+
+Frequency variations up to 400 Hz/sec (decreasing), and 120 Hz/sec (increasing),
+unless otherwise specified in the applicable equipment performance standards,
+can occur in abnormal operating conditions as a result of quick engine speed
+changes more particularly during engine runaway or failure mode scenarios.
+
+b. Requirement:
+
+(1)
+
+(2)
+
+Note:
+
+Operate the equipment for five minutes with a voltage of 115 Vrms at
+equipment terminals and a frequency of 360 Hz +5/-0 Hz.
+
+Then, cycle the frequency three times as indicated below:
+Increase the frequency to:
+e A(NF) category equipment: 650 Hz +0/-5 Hz
+e A(WE) category equipment: 800 Hz +0/-5 Hz
+
+with a constant frequency rate of change of 120 Hz/s, then return the
+frequency to 360 Hz +5/-0 Hz with the frequency rate of change at 400
+Hz/s and maintain the frequency at 360 Hz +5/-0 Hz for five seconds.
+
+After exposure, DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS
+
+Any requirement for performance of the equipment during application of
+the test will be specified in the equipment performance standards.
+
+16.5.2.4 Loss of Phase Input (Three Phase ac Input Only)
+
+a. Definition:
+
+All three phase ac loads are to be designed such that no damage or unsafe
+condition will occur during and following removal of one or more input phase
+connections.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+© 2010 RTCA, Inc.
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Nol for Resale,2016-02-16 13:45:42 UTC
+
+16-22
+
+b. Requirement:
+
+The equipment shall be supplied by a source having a voltage of 115 Vrms anda
+frequency as follows:
+
+e 400 Hz for A(CF) category equipment
+
+e 360 Hz for variable frequency equipment then repeated with 650 Hz for
+A(NF) category equipment and 800 Hz for A(WF) category equipment.
+
+a. Operate the equipment for a period of 5 minutes with all three phases
+supplied. With all three phases supplied, remove phase X and continue to
+apply normal operating voltage to the remaining two phases for a period
+of 30 minutes minimum.
+
+b. Starting with power disconnected from the EUT remove phase X and
+then apply normal operating voltage to the remaining two phases for a
+period of 30 minutes minimum.
+
+c. Operate the equipment for a period of 5 minutes with all three phases
+supplied. With all three phases supplied, remove both phase Y and Z and
+continue to apply normal operating voltage to the remaining phase for a
+period of 30 minutes minimum.
+
+d. Starting with power disconnected from the EUT remove phase Y and Z
+and then apply normal operating voltage to the remaining phase for a
+period of 30 minutes minimum.
+
+The phases selected shall be justified by the following criteria and documented in
+the test report.
+
+e Phase X is the phase that is most susceptible to damage from a loss of
+single phase.
+
+e Phase Y and Z are the phases that are most susceptible to damage from
+the loss of two phases.
+
+Unless otherwise specified in the applicable performance standards, the
+maximum allowed circuit breaker is allowed to be placed in series with the EUT.
+
+After exposure, DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS. Manual reset is permitted
+unless not allowed by the individual specification.
+
+Note: Any requirement for performance of the equipment during application of
+test will be specified in the equipment performance standards.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [0482891 10575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permilted without license from IHS Not for Resale.2016-02-16 13:45:42 UTC
+
+16-23
+
+16.6 Electrical Power Input Parameter Limits (dc)
+
+The following defines quantitatively those parameters of electrical power input that are
+variable and the related test conditions where applicable, and are divided into those
+associated with NORMAL and ABNORMAL electrical system operation.
+
+Unless otherwise specified in applicable equipment performance standards:
+
+The chassis shall be at the same dc potential as earth ground during all equipment
+tests. All test limits listed in this test standard are with respect to a negative
+ground system.
+
+The return lead (negative lead) for all 14V and 28 V dc equipment tests shall be
+at the same dc potential as the earth ground during all equipment tests.
+
+270 V dc equipment may be used either as positive ground, negative ground or floating
+ground. Except as noted, all 270 V de tests are to be performed with the 270V power
+source’s negative lead at the same dec potential as earth ground during all equipment tests.
+
+Notes:
+
+1.
+
+16.6.1 Normal Operating Conditions (dc)
+
+The power source used should be able to supply the maximum current
+required by the EUT.
+
+In the case where multiple power inputs are supplied by the same aircraft
+bus, all connections for these inputs shall be tested simultaneously.
+
+The following conditions and tests are applicable to Category A, Category B, Category D
+and Category Z equipment.
+
+CAUTION: All mentioned 28V voltage values are to be divided by 2 for 14 V dc
+
+equipment.
+
+16.6.1.1 Voltage (Average Value dc)
+
+a. Definition:
+
+Copyright RTCA, Inc.
+Provided by IHS under license wilh RTCA, Inc.
+No reproduction or networking permitled without license from IHS
+
+270 V de
+285 V
+235 V
+235 V
+
+Voltage at Equipment Terminals
+
+Maximum
+
+Minimum
+
+Emergency Operation
+
+Note: Nominal dc network voltage is with regards to:
+
+Category A equipment: 28V
+Category B equipment: 28V or 14V
+Category Z equipment: 28V
+Category D equipment: 270V
+
+© 2010 RTCA, Inc.
+
+Order Number: 02093010
+
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+Not for Resale.2016-02-16 13:45:42 UTC
+16-24
+
+b. Requirement
+
+(1)
+
+(2)
+
+(4)
+
+16.6.1.2 Ripple Voltage (dc)
+
+Operate the equipment at maximum duty cycle for at least 30 minutes
+with voltage at its terminals adjusted to the appropriate maximum
+voltage. DETERMINE COMPLIANCE WITH _APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS during this 30-minute
+period. The test may be run at the abnormal voltage levels to satisfy
+both normal and abnormal maximum operating conditions.
+
+Operate the equipment for at least 1 minute with nominal voltage at its
+terminals, then adjust voltage at equipment terminals to the appropriate
+minimum voltage +0/-1% and operate the equipment at maximum duty
+cycle for at least 30 minutes. DETERMINE COMPLIANCE WITH
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS during
+this 30-minute period. The test may be run at the abnormal voltage
+levels to satisfy both normal and abnormal minimum operating
+conditions. For category A, B and Z equipment, the test may be run at
+the emergency voltage levels to satisfy the normal, abnormal and
+emergency minimum operating conditions.
+
+For equipment designated to operate under emergency electrical system
+conditions, operate the equipment for at least 1 minute with nominal
+voltage at its terminals, then adjust the voltage at the equipment
+terminals to the appropriate emergency minimum voltage +0/-1% and
+operate the equipment at maximum duty cycle for at least 30 minutes .
+DETERMINE — COMPLIANCE WITH THE _ APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS during this 30-minute
+
+period.
+
+For category D equipment only: With the power source’s positive lead
+referenced to earth ground, operate the equipment at maximum duty
+cycle for at least 30 minutes with voltage at its terminals adjusted to the
+appropriate maximum voltage. DETERMINE COMPLIANCE WITH
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS during
+
+this 30-minute period.
+
+After determining compliance with applicable equipment performance
+standards, turn the 270V power source off, verify the voltage has
+dropped to a safe level and then return the 270V power source to have its
+negative lead referenced to earth ground
+
+a. Definition and ripple maximum level:
+
+Ripple is the cyclic variation about the mean level of the de voltage during steady
+state dc electrical system operation.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+In 28 V dc network, the cyclic peak-to-peak de ripple voltage will be less
+than 4 volts if voltage at equipment terminals is above or equal to 22 V;
+if not, ripple voltage will be less than 2 V.
+
+In 270 V dc network, the cyclic peak-to-peak de ripple voltage will be
+less than 16 volts
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+b.
+
+16-25
+Requirements related to ripple frequency components:
+Refer to the paragraph 18.3.1 of subsection 18.3.
+
+Note: Categories R, B, Z and Z defined in section 18 correspond respectively to
+categories A, B, D and Z as defined in section 16
+
+16.6.1.3 Momentary Power Interruptions (dc)
+
+a.
+
+Copyright RTCA, Inc.
+Provided by IHS under license wilh RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+Definition
+
+Transfer of power sources can result in power interruptions for any period up to
+200 ms for Category A and 50 ms for Category B equipment, and 1.0 second for
+Category D and Z equipment.
+
+For equipment that has more than one power source, consult applicable
+performance standards for the states of the remaining power inputs during the
+testing of power interrupts on any given power input. Multiple primary power
+input connections that are intended to be tied in parallel external to the EUT in
+the installation are considered as the same power source.
+
+Requirement for Equipment with Digital Circuits
+
+This test is applicable only to equipment that incorporates digital circuitry and/or
+memory devices, including equipment with delay circuits.
+
+This type of equipment is sensitive to momentary power interruptions that can
+cause aberrations in performance. Such transient power interruptions may be of
+any function of V-transient and T-transient where V, may have any value
+between V-steady state and zero, and T, may be any value from 0 to | second.
+Since there are a multitude of such combinations, this test procedure selects
+discrete values that are considered effective for determining equipment
+performance.
+
+Test Procedures
+
+The equipment shall be fully operational.
+Nominal voltage shall be applied prior to each test condition.
+
+Data shall have been entered, either manually or automatically, and all related
+displays functioning prior to each test condition.
+
+For each representative operating mode of the equipment, or as specified in the
+applicable performance standards, apply each of the test conditions of Table 16-3
+at least twice. If the difference between maximum and minimum steady state
+current is less than 25% of the maximum steady state current, only the maximum
+steady state current operating mode needs to be tested.
+
+The second successive test application is to be applied after the system has fully
+stabilized. Monitor the performance of the equipment (including any
+equipment/system normally operated in parallel) both during and subsequent to
+application of each test.
+
+After exposure, DETERMINE COMPLIANCE WITH APPLICABLE
+EQUIPMENT PERFORMANCE STANDARDS. Manual reset is not permitted
+© 2010 RTCA, Inc.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-26
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permilted without license from IHS
+
+unless otherwise specified by the individual equipment specifications.
+
+Note: Any requirement for performance of the equipment during application of
+test will be specified in the equipment performance standards.
+
+Requirement for All Equipment
+
+This test is applicable to all dc equipment.
+Test Procedures
+
+With the equipment operating at its design voltage(s), interrupt the power for a
+minimum of five times; each interrupt period shall last 50 ms whatever the
+category of equipment. Repeat this procedure with interrupt periods of 200 ms
+for Category A and Category D equipment, and 1 second for Category Z
+equipment.
+
+Each successive test application is to be applied after the system has fully
+stabilized. | Monitor the performance of the equipment (including any
+equipment/system normally operated in parallel) both during and subsequent to
+application of each test.
+
+DETERMINE —_ COMPLIANCE WITH _ APPLICABLE | EQUIPMENT
+PERFORMANCE STANDARDS. Manual reset is not permitted unless
+otherwise specified by the individual equipment specifications.
+
+Note: Any requirement for performance of the equipment during application of
+test will be specified in the equipment performance standards.
+
+Double Interrupt Requirement for de Equipment with Digital or Memory Devices
+
+This test is applicable only to de equipment that incorporates digital circuitry
+and/or memory devices, including equipment with electrical or mechanical delay
+devices.
+
+This test relates to all de equipment categories as they may be subjected to
+double switching phenomenon.
+
+Test Procedures
+
+The equipment shall be fully operational.
+Nominal voltage shall be applied prior to each test condition.
+
+Data shall have been entered, either manually or automatically, and all related
+displays functioning prior to each test condition.
+
+For each representative operating mode of the equipment, or as specified in the
+applicable performance standards, apply each of the test conditions of Table 16-7
+once with T2 = 10 ms and again with T2 = 50 ms. If the difference between
+maximum and minimum steady state current is less than 25% of the maximum
+steady state current, only the maximum steady state current operating mode
+needs to be tested.
+
+Monitor the performance of the equipment (including any equipment/system
+normally operated in parallel) both during and subsequent to application of each
+test. After each test condition, verify equipment operation per manufacture’s
+recommendations. The test conditions may be applied in any order. The next test
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-27
+
+application is to be applied after the system has fully stabilized. Manual reset is
+not permitted unless otherwise specified by the individual equipment
+specifications
+
+After exposure to all test conditions, DETERMINE COMPLIANCE WITH
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+Note: Any requirement for performance of the equipment during application of
+test will be specified in the equipment performance standards
+
+16.6.1.4 Normal Surge Voltage (dc)
+
+a.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+Definition
+
+A normal surge is a variation from the controlled steady-state level. It results
+from the inherent regulation of the electrical power supply system in response to
+disturbances that are imposed by normal system operations, such as load
+switching and remedial action by the regulator.
+
+Requirement (Category A, B and Z equipment only)
+
+(1) Operate the equipment for five minutes with a voltage of 28 V de at its
+terminals, then cycle the voltage three times as indicated below:
+
+Increase the voltage to 47 V dc -0/+2 V dc for 5 ms then decrease the
+voltage to 40 V dc -0/+2 V de for 30 ms for Category A and Category B
+equipment. Increase the voltage to 50 V de -0/+2 V dc for 50 ms for
+Category Z equipment. Return the voltage to 28 V de for five seconds.
+The rise time from one level to another shall be done within 1 ms, the fall
+time from one level to another shall be done within 5 ms. The voltage is
+not to return to nominal between the first and second surge voltage for
+Category A and Category B equipment..
+
+Decrease the voltage to 17 V dc -0.7/+0 V dc for Category A and
+Category B equipment, and to 12 V de -0.7/+0 V dc for Category Z
+equipment for 30 ms. Return the voltage to 28 V dc for five seconds.
+The voltage change from a level to another should be done within 1 ms.
+
+The required surge voltages as measured at the input terminals of the
+EUT shall be achieved regardless of the required surge current.
+
+(2) The voltage surge should be applied and monitored in a manner similar
+to that in Figure 16-4.
+
+(3) During the normal electrical system surges, DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS.
+
+Note: Unless so stated in the individual equipment performance
+standard, equipment may have degraded performance during the
+surge and must meet the specified performance when returned to
+nominal voltage.
+
+(4) Following application of the voltage surges, DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS.
+
+© 2010 RTCA, Inc.
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale.2016-02-16 13:45:42 UTC
+16-28
+
+Note: If the equipment performance standard requires that
+performance be met during the abnormal surge voltage test of
+subparagraph 16.6.2.4 and momentary undervoltage test of
+subparagraph 16.6.2.3, it is not necessary to run the above test.
+
+Requirement for 270 V dc equipment (Category D equipment only)
+
+(1)
+
+(4)
+
+Operate the equipment for five minutes with a voltage of 270 V de V de
+at its terminals, then cycle the voltage three times as indicated below:
+
+Increase the voltage to 400 V dc -0/+16 V dc for 30 ms -0/+3ms.
+
+Return the voltage to 270 V de + 11 V dc for five seconds minimum.
+
+The rise time from one level to another shall be done within 1 ms, the fall
+time from one level to another shall be done within 5 ms.
+
+Decrease the voltage to 160 V dc -7/+0 V dc for 30 ms -0/+3ms.
+
+Return the voltage to 270 V de + 11 V dc for five seconds minimum.
+
+The fall time from one level to another shall be done within 5 ms, the rise
+time from one level to another shall be done within | ms.
+
+The required surge voltages as measured at the input terminals of the
+EUT shall be achieved regardless of the required surge current.
+
+The voltage surge should be applied and monitored in a manner similar
+to that in Figure 16-4.
+
+During the normal electrical system surges, DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS.
+
+Note: Unless so stated in the individual equipment performance
+standard, equipment may have degraded performance during the
+surge and must meet the specified performance when returned to
+nominal voltage.
+
+Following application of the voltage surges, DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS.
+
+Note: If the equipment performance standard requires that performance
+be met during the abnormal surge voltage test of subparagraph
+16.6.2.4 and momentary undervoltage test of subparagraph
+16.6.2.3, it is not necessary to run the normal surge voltage test.
+
+16.6.1.5 Engine Starting Under Voltage Operation (dc)
+
+a.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from |HS
+
+Definition
+
+This requirement applies to Category Z and 28 volt Category B equipment.
+During engine starting, momentary voltages in the range from 10.0 to 20.5 V de
+may occur for any duration up to 35 seconds or as indicated in the equipment
+specification.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-29
+
+b. Requirement
+
+With the equipment energized at nominal rated voltage, decrease the input
+voltage to 10.0 V dec and increase 0.30 volts per second for 35 seconds, then
+return to rated voltage or as indicated in the equipment specification. During this
+period the equipment performance can fall to a level stipulated in the equipment
+specification. Return the voltage to its nominal value and DETERMINE
+
+COMPLIANCE WITH APPLICABLE EQUIPMENT _ PERFORMANCE
+STANDARDS.
+
+16.6.1.6 Exposed Voltage Decay Time (de, Category D Equipment Only)
+a. Definition
+Voltages on exposed external surfaces of the EUT are to be maintained at a safe
+
+level during normal operation. Voltages on all external surfaces of the EUT must
+decay to a safe level in a reasonable amount of time after power is removed from
+
+EUT.
+b. Requirements
+(1) With the EUT installed in a manner representative of the installation in
+
+the aircraft, operate the equipment for at least one minute with nominal
+voltage at its terminals. Excluding female connector pins, all exposed
+voltages in this condition shall be less than 50V peak in magnitude with
+respect to the chassis and less than 50V peak with respect to each other.
+
+(2) Monitor all 270V hot and 270V return connection points on the EUT
+with 10 megohms +/- 20% < 30 pF probes with respect to chassis ground
+including both male and female connector pins. Operate the equipment
+for at least one minute with nominal voltage at its terminals then abruptly
+disconnect all 270V hot and all 270V return lines to the EUT.
+
+The voltage from 270V hot to chassis, the voltage from 270V return to
+chassis and the voltage between 270V hot to 270V return shall decay to
+less than 50V peak in the times listed below:.
+
+a) 270V connection points on the EUT that are exposed by
+removing a connector from the EUT while the EUT is still
+mounted in the airframe are to be tested 1 +0/-0.1 second after
+removal of power.
+
+b) 270V connection points on the EUT that are exposed by
+removing the EUT from the airframe are to be tested 10 +0/-1.0
+second after removal of power.
+
+(3) If the EUT can be placed in a non-operating mode with power applied to
+the EUT, repeat step (2) with the EUT in the power applied non-
+operating mode.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number: 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16.6.2 Abnormal Operating Conditions (dc)
+
+The following conditions and tests are applicable to Category A, Category B, Category D
+and Category Z equipment.
+
+CAUTION: All mentioned 28V voltage values are to be divided by 2 for 14 V de
+equipment.
+
+16.6.2.1 Voltage Steady State (dc)
+
+a. Definition
+
+Abnormal voltage limits that may be encountered are:
+
+| Vote at Equipment Terminals 270 V de
+
+Note: Nominal dc network voltage is with regards to:
+
+Category A equipment: 28V
+Category B equipment: 28V or 14V
+Category Z equipment: 28V
+Category D equipment: 270V
+
+b. Requirement
+
+(1) Operate the equipment for at least five minutes with voltage at its
+terminals adjusted to the appropriate maximum voltage. With the
+equipment operating, reduce this voltage to nominal voltage and
+
+DETERMINE COMPLIANCE WITH APPLICABLE EQUIPMENT
+
+PERFORMANCE STANDARDS.
+
+(2) Operate the equipment for at least one minute with nominal voltage at its
+terminals, then adjust voltage at equipment terminals to the appropriate
+minimum voltage +0/-1% and operate the equipment for at least five
+minutes. With the equipment still energized, increase voltage at its
+terminals to nominal voltage and DETERMINE COMPLIANCE WITH
+
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+Note: Any requirement for performance of the equipment during application of
+the abnormal voltage will be specified in the equipment performance
+standard.
+
+16.6.2.2 Low Voltage Conditions (de, Category B Equipment Only)
+a. Definition
+
+Voltages in the range from zero to the appropriate minimum voltage may occur
+for any duration up to ten minutes.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by |HS under license wilh RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted wilhout license fram IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-31
+
+Requirement
+
+Operate the equipment for at least one minute with nominal voltage at its
+terminals then adjust the input power voltage(s) to the normal operating
+minimum voltage and operate the equipment for at least one minute. With the
+equipment still energized, decrease the input power voltage(s) linearly to zero
+over a minimum period of 10 minutes. With the equipment still connected,
+adjust the input power voltage(s) to the equipment’s appropriate nominal voltage
+
+and DETERMINE COMPLIANCE WITH APPLICABLE EQUIPMENT
+PERFORMANCE STANDARDS.
+
+If the linear decay to zero is applied in discrete steps, the step size shall be
+smaller than 0.25V and the minimum dwell time at each step shall be 600 seconds
+divided by the number of steps.
+
+16.6.2.3 Momentary Undervoltage Operation (dc)
+
+a.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted withoul license from IHS
+
+Definition
+
+Voltages may momentarily vary below nominal for any duration up to seven
+seconds.
+
+Requirement (Category A, B and Z equipment only)
+
+The equipment, when exposed to this condition, shall operate within the
+applicable equipment performance standards when returned to normal operating
+voltage range.
+
+With the equipment energized at nominal rated voltage, decrease the input dc
+voltage to 12.0 V +/- 0.24 V for seven seconds. With the equipment still
+energized, adjust the input de voltage to nominal rated value and DETERMINE
+
+COMPLIANCE WITH APPLICABLE _EQUIPMENT _ PERFORMANCE
+STANDARDS.
+
+Requirement for 270 V de equipment (Category D equipment only)
+
+The equipment, when exposed to this condition, shall operate within the
+applicable equipment performance standards when returned to normal operating
+voltage range.
+
+With the equipment operating with a voltage of 270 V dc at its terminals,
+decrease the input de voltage to 140 +/- 2 V, or as otherwise specified in the
+equipment specification, for seven seconds minimum. With the equipment still
+energized, adjust the input de voltage to 270 V and DETERMINE
+COMPLIANCE WITH APPLICABLE EQUIPMENT PERFORMANCE
+STANDARDS.
+
+Repeat test with 20.0 +/- | V instead of 140 V.
+
+© 2010 RTCA, Inc.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale.2016-02-16 13:45:42 UTC
+16-32
+
+16.6.2.4 Abnormal Surge Voltage (dc)
+
+a,
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+Definition
+
+An abnormal surge is a variation from the controlled steady-state level, resulting
+from the inherent regulation of the electrical power supply system and remedial
+action by the regulator, such as during fault clearance. The transient surge
+voltages that may be encountered are shown in Figure 16-6.
+
+Category Z requirement
+
+With the equipment operating at its appropriate nominal voltage, apply to the
+positive (dc) input lead voltage surges of 80 -0/+4 V dc for 100 ms and then
+reduce the voltage to 48 -0/+4 V dc for one second. The rise time from one level
+to another shall be done within 1 ms, the fall time from one level to another shall
+be done within 5 ms. The voltage is not to return to nominal between the first and
+second surge voltage.. The voltage surges should be applied and monitored in a
+manner similar to that in Figure 16-4. Apply each voltage surge three times at
+ten-second intervals. Following this test, DETERMINE COMPLIANCE WITH
+
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+The required surge voltages as measured at the input terminals of the EUT shall
+be achieved regardless of the required surge current.
+
+Category A requirement
+
+With the equipment operating at its appropriate nominal voltage, apply to the
+positive (dc) input lead voltage surges of 46.3 -0/+2 V dc for 100 ms and then
+reduce the voltage to 37.8 -0/+2 V dc for one second, unless otherwise specified
+in the equipment specifications. The rise time from one level to another shall be
+done within 1 ms, the fall time from one level to another shall be done within 5
+ms. The voltage is not to return to nominal between the first and second surge
+voltage.. The voltage surges should be applied and monitored in a manner similar
+to that in Figure 16-4. Apply each voltage surge three times at ten-second
+intervals. Following this test, DETERMINE COMPLIANCE WITH
+
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+The required surge voltages as measured at the input terminals of the EUT shall
+be achieved regardless of the required surge current.
+
+Category B requirement
+
+With the equipment operating at its appropriate nominal voltage, apply to the
+positive (dc) input lead voltage surges of 60 -0/+3 V dc for 100 ms and then
+reduce the voltage to 40 -0/+2 V dc for one second, unless otherwise specified in
+the equipment specifications. The rise time from one level to another shall be
+done within 1 ms, the fall time from one level to another shall be done within 5
+ms. The voltage is not to return to nominal between the first and second surge
+voltage. The voltage surges should be applied and monitored in a manner similar
+to that in Figure 16-4. Apply each voltage surge three times at ten-second
+intervals. Following this test, DETERMINE COMPLIANCE WITH
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+The required surge voltages as measured at the input terminals of the EUT shall
+be achieved regardless of the required surge current.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+es Category D Requirement
+
+With the equipment operating at its appropriate nominal voltage, apply to the
+positive (dc) input lead voltage surges of 425 -0/+17 V dc for 100 ms -0/+10 ms
+and 345 -0/+14 V dc for one second minimum. The rise time from one level to
+another shall be done within 1 ms, the fall time from one level to another shall be
+done within 5 ms. The voltage is not to return to nominal between the first and
+second surge voltage. The voltage surges should be applied and monitored in a
+manner similar to that in Figure 16-4. Apply each voltage surge three times at
+ten-second intervals. Following this test, DETERMINE COMPLIANCE WITH
+
+APPLICABLE EQUIPMENT PERFORMANCE STANDARDS.
+
+The required surge voltages as measured at the input terminals of the EUT shall
+be achieved regardless of the required surge current.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Not for Resale.2016-02-16 13:45:42 UTC
+16.7 Load Equipment Influence on Aircraft Electrical Power System (ac and dc)
+
+16.7.1 Current Harmonic Emissions from Loads (ac), Designation H
+
+16.7.1.1 Definitions
+
+The following requirements shall be met for ac powered equipment with test designation
+H (as defined in section 16.2). Equipment that does not test current harmonic emissions is
+to be marked with designation X.
+
+Refer to section 16.5.1.8.1 for further definitions.
+
+16.7.1.2 Current Distortion
+
+Current distortion from ac powered equipment is tested with two input voltage conditions.
+
+When supplied with a voltage waveform of low Total Harmonic Distortion
+(THDy at the EUT input less than 1.25 % according to Test Condition 1,
+Verification Requirements, paragraph 16.7.1.3), the equipment shall not demand
+harmonic current components greater than 1.25 % above that already specified in
+Tables 16-4 and 16-5 for every 1 % of distortion in the corresponding individual
+voltage harmonic.
+
+Notes:
+a. If the EUT power is greater than 2 kVA, the THDy may be greater
+than 1.25 % but shall not exceed 4 %.
+
+b. For example of calculation of the harmonic current component
+limits, refer to Table 16-6.
+
+When supplied with a distorted voltage waveform (Test Condition 2, Verification
+Requirements, paragraph 16.7.1.3), the equipment shall not demand harmonic
+currents greater than 1.25% above that already specified in Tables 16-4 and 16-5
+for every 1% of distortion in the corresponding individual voltage harmonic.
+
+Note: For example of calculation of the harmonic current component
+limits, refer to Table 16-6.
+
+Commentary: Distorted voltage waveform requirements are required to ensure
+the EUT is stable when exposed to realistic power system
+conditions (Refer also to section 16.5.1.8).
+
+16.7.1.3 Current Distortion Verification Requirements
+
+CAUTION: All mentioned voltage values are for 115 Vrms equipment.
+
+Multiply them by 2 for 230 Vrms equipment.
+
+The following data shall be supplied as part of the qualification test procedure to verify
+compliance with distortion requirements in the design requirements under all operating
+
+modes:
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from |HS
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-35
+
+I; A description of the operating mode of equipment when the measurement was
+taken;
+2. A description of the test setup, a copy of the test procedure, and a description of
+
+test equipment used and their settings;
+
+Plot of current and voltage waveforms, with scaling information, for each phase
+of the equipment;
+
+bo
+
+4, For A(CF) category equipment:
+
+e Tabulation of equipment input current and voltage harmonic components
+magnitude and phase (optional) for integral frequencies between 400 Hz and
+16 kHz for each phase of the equipment;
+
+e Spectrum analysis plot of equipment input current (magnitude only) with a
+resolution of less than 20 Hz for each phase of the equipment.
+
+Ds For A(NF) category equipment:
+e Tabulation of equipment input current and voltage harmonic components
+magnitude and phase (optional) for integral frequencies of 360 Hz to 14.4
+kHz and 650 Hz to 26 kHz for each phase of the equipment;
+
+e Spectrum analysis plot of equipment input current (magnitude only) with a
+resolution of less than 20 Hz for each phase of the equipment.
+
+6. For A(WF) category equipment:
+e Tabulation of equipment input current and voltage harmonic components
+magnitude and phase (optional) for integral frequencies of 360 Hz to 14.4
+
+kHz and 800 Hz to 32 kHz for each phase of the equipment;
+
+e Spectrum analysis plot of equipment input current (magnitude only) with a
+resolution of less than 20 Hz for each phase of the equipment.
+
+he True RMS of input current for each phase of the equipment; and
+8. Total harmonic distortion of input current and voltage for each phase of the
+equipment.
+
+These tests shall be performed for the equipment operating modes that draw maximum
+steady-state current and minimum steady-state current from the electrical power source
+used for these tests. If the difference between maximum and minimum steady state
+current is less than 25% of the maximum steady state current, only the maximum steady
+state current operating mode needs to be tested
+
+Current harmonic measurements shall be performed in accordance with Figure 16-7.
+Current measuring devices shall have an amplitude error of less than 3% and phase error
+(if reported) of less than 5 degrees for all frequencies up to 50 kHz.
+
+Current harmonic components less than 10 mA, or less than 0.25 % of the fundamental,
+whichever is greater, shall be disregarded.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-36
+
+Spectrum analyzers or other harmonic analysis equipment shall be selected so that the
+resulting error in harmonic current measurement is less than 5% of the permissible limit,
+and the resulting frequency spectrum shall have a resolution of less than or equal to 20
+Hz. Harmonic analysis equipment shall have capability of sufficiently high sampling
+rate, sufficiently long time window, appropriate window functions and anti-aliasing
+filters. As a guideline, the following test features should be considered:
+
+a. A sampling rate of 100 kHz or higher should be used.
+
+b. A time window of 0.05 seconds or longer should be used.
+
+c. An anti-aliasing filter with a corner frequency within 25 kHz to 50 kHz
+
+should be used.
+
+d. Either Rectangular, Hanning, Hamming, or Blackman-Harris windowing
+
+should be used.
+
+If a spectrum analyzer or an EMI receiver is used to measure the harmonics, the
+following bandwidths, detection, and dwell times or minimum measurement times shall
+
+be used
+
+Minimum
+Dwell Time per
+Harmonic (1)
+
+10" Harmon
+to10" Harmonic
+40" Harmonic
+
+(1) For discrete frequency measurements
+(2) For analog measurement receiver is used
+(3) Analyzer to be put in max hold
+
+6 dB
+Bandwidth
+
+Frequency
+Range
+
+Measurement
+
+Detection
+Setting (3)
+
+Minimum
+
+Time (2)
+
+The harmonics of the power line frequency up to the 40th harmonic shall be measured.
+
+The intent of this test is to measure the power line harmonically related emissions;
+therefore, non-harmonically related emissions are exempt from this requirement. The
+amplitude and frequency measurement of the harmonics is a function of the accuracy of
+the fundamental power line frequency. Ensure that the fundamental is accurately
+measured and the harmonics are calculated based on this measurement.
+
+Dwell and measurement times used during testing should be sufficient to measure any
+variations in harmonic amplitude. Longer dwell or measurement times are acceptable.
+Analog sweeps are to start at least 4 the bandwidth below the test frequency and end at
+
+least % the bandwidth above the test frequency.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+
+Provided by IHS under license with RTCA, Inc.
+
+No reproduction or networking permitted without license from IHS Not for Resale.2016-02-16 13:45:42 UTC
+
+Sold to;ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Test conditions:
+
+The equipment shall be tested under two conditions of input voltage distortion. In both
+cases, the equipment shall be supplied by a source having a voltage of 115 Vrms and a
+frequency as follows:
+
+e A(CF) category equipment: 400 Hz+ 1%.
+e A(NF) category equipment: 360, 400, 500, 600 and 650 +/- 1 Hz
+e A(WF) category equipment: 360, 400, 500, 600, 650, 700 and 800 +/- 1 Hz.
+
+The supply voltage and frequency shall remain constant within these limits while
+measurements are made.
+
+Test Condition 1:
+
+For the first test condition, the THD of the voltage (THDy) at the input terminals
+of the equipment shall be less than 1.25% during the whole test.
+
+Note: If the EUT power is greater than 2 kVA, the output impedance of the
+source may not be sufficiently low to keep THDy at the input of the EUT
+below 1.25%. In this case, THDy may be greater than 1.25 % but shall
+not exceed 4%. :
+
+Test Condition 2:
+
+For the second test condition, the THD of the voltage (THDy) at the input
+terminals of the equipment shall be:
+
+e 8% +2/-0% for A(CF) and A(NF) category equipment
+e 10% +2/-0% for A(WF) category equipment
+
+during the whole test.
+
+The voltage distortion may be produced via a full-wave rectifier bridge as shown in
+Figure 16-8. The level of voltage distortion can be controlled by varying the load on the
+rectifier(s), and insertion of source impedance in the line. Alternatively, input voltage to
+the EUT may be distorted by clipping the supply voltage.
+
+16.7.2 Allowable Phase Unbalance (Three Phase ac Input Only)
+
+16.7.2.1 Definition
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+
+The following requirements shall be met for all three phase ac equipment. The apparent
+(volt-amps), real (watts) and reactive (vars) power demands of any phase of a three-phase
+load shall not differ from similar power demands of any other phase, during any normal
+operating mode, by more than the limits of Figure 16-11.
+
+© 2010 RTCA, Inc.
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS. Not for Resale,2016-02-16 13:45:42 UTC
+16-38
+
+16.7.2.2. Requirements
+
+Operate the equipment with a balanced input voltage at nominal value and a frequency as
+follows:
+
+e A(CF) category equipment: 400 Hz+1%.
+e A(NF) category equipment: 400 Hz+ 1%, then 360 Hz+ 1%, then 650 Hz+ 1%.
+e A(WF) category equipment: 400 Hz+ 1%, then 360 Hz+ 1%, then 800 Hz+ 1%.
+
+The supply voltage and frequency shall remain constant within these limits while
+measurements are made.
+
+Measure the load real power (W), apparent power (VA), and reactive power (VAR) for
+each of the three input phases at both a minimum and maximum power demand modes of
+operation. If there is less than a 25% difference between minimum and maximum power
+demand operating conditions, only one test at maximum power demand is required.
+
+For loads with a power demand less than or equal to 1 kVA, the phase unbalance shall be
+less than 200VA, W or VAR. For loads with a power demand greater than 20kVA, the
+phase unbalance shall not differ by more than 800VA, W, or VAR. For loads between 1
+kVA and 20 kVA, the phase balance shall remains within the limits of Figure 16-11.
+
+16.7.3 DC Current Content in Steady-State Operation (All ac Equipment)
+
+16.7.3.1 Definition
+
+DC current content is the dc component of the ac line current drawn by the EUT.
+
+16.7.3.2 Requirement
+
+This requirement applies to all ac equipment that draws greater than 10 VA. Equipment that
+draws less than or equal to 10 VA is exempt from this requirement.
+
+(1)
+
+(2)
+
+Operate the equipment in the mode that draws maximum steady-state current from the
+electrical power source used for this test, with a voltage of 115 Vrms, with a de
+component of 0.00 +/- 0.10 V dc, at its terminals and a frequency as specified in the note
+below.
+
+After stabilizing the equipment, measure the DC content of the equipment line current.
+The DC content shall not exceed the higher of 5 mA or 2 % of the maximum RMS value
+of the equipment current.
+
+Operate the equipment in the mode that draws minimum steady-state current from the
+electrical power source used for this test, with a voltage of 115 Vrms, with a dc
+component 0.00 +/- 0.10 V de, at its terminals and a frequency as specified in the note
+below.
+
+After stabilizing the equipment, measure the DC content of the equipment line current.
+The DC content shall not exceed the higher of 5 mA or 2 % of the maximum RMS value
+of the equipment current.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+
+No reproduction or networking permitted without license from IHS.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Nol for Resale,2016-02-16 13:45:42 UTC
+
+16-39
+
+If the difference between maximum and minimum steady state current is less than 25% of
+the maximum steady state current, only the maximum steady state current operating
+mode needs to be tested
+
+Note: These tests shall be performed with a frequency of:
+e 400 Hz for A(CF) category equipment
+
+e 360 Hz, for variable frequency equipment then repeated with 650 Hz for A(NF)
+category equipment and 800 Hz for A(WF) category equipment.
+
+16.7.4 Regenerated Energy (dc, Category D Equipment Only)
+
+16.7.4.1 Definition
+
+Regenerated energy is energy that flows from the load back to the power source. This
+energy typically comes from motor braking and from abrupt changes in load demand.
+This test measures regenerated energy by observing the voltage change across a 10 uF
+capacitor.
+
+16.7.4.2, Requirement
+
+With a voltage of 270 V dc at the EUT terminals, operate the equipment in the operating
+modes that draw maximum steady state current and minimum steady state current from
+the 270 V dc power source used for this test. If the difference between maximum and
+minimum steady state current is less than 25% of the maximum steady state current, only
+the maximum steady state current operating mode needs to be tested.
+
+While operating, the equipment shall induce less than 8.0V zero to positive peak across
+the 10 uF +/- 10% capacitor shown in Figure 16-12. Monitor both sides of the diode in
+series with the 270V source during the test. The 270V is to have less than 1.0 V zero to
+positive peak ripple as measured at the anode of the series diodes during the test. The
+diode between the power source and the EUT shall have less than | Jisec reverse recovery
+time.
+
+CAUTION:
+
+1. Potentially lethal voltages appear on both sides of the diodes and on the 10 uF
+capacitor.
+
+2. EUTs that fail this test may cause the test set-up to explode. Install and use
+appropriate electrical and mechanical safe guards before running this test.
+
+. Before attempting to test an EUT for regenerated energy, verify with the
+EUT's manufacture that the EUT was designed to pass this test.
+
+uo
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted withoul license from IHS. Not for Resale.2016-02-16 13:45:42 UTC
+16-40
+
+16.7.5 Inrush Current Requirements (ac and dc), Designation I.
+
+16.7.5.1 Definition
+
+The following requirements shall be met for equipment with designation I. Equipment
+that meets an alternate inrush test is to claim designation Z. Equipment that does not test
+inrush is to be marked with designation X.
+
+16.7.5.2, Requirements
+
+When the nominal input voltage is abruptly applied, the peak inrush current shall be less
+than:
+
+9 times the maximum steady state load for the first 3.0 milliseconds,
+4 times the maximum steady state load up to 500 msec, and
+2 times the maximum steady state load up to 2 seconds and nominal thereafter.
+
+Test Conditions:
+
+The voltage rise time and fall time is to be less than 1/4 cycle for ac or less than 300 psec
+for de.
+
+For dc testing, the maximum steady state load is defined as the rated average current in
+the maximum steady state operating condition.
+
+For ac testing, the maximum steady state load is defined as 1.41 times the rated RMS
+current in the maximum steady state operating condition.
+
+Commentary: Maximum steady state load current draw generally occurs at low
+line input voltage to the EUT.
+
+The unloaded test is to provide:
+
+115V +/- 1 Vrms ac,
+230V +/- 2 Vrms ac,
+14.0V +/- 0.13 V de,
+28.0V +/- 0.25 V de or
+270V +/- 2.7 V de.
+
+At the maximum steady state load current draw with the power source with-in its
+unloaded voltage tolerance, add a resistor between the power source and each EUT power
+input hot lead to adjust the measured voltage drop between the power source and EUT to
+the following:
+
+4,0V +/- 0.3 Vrms ac for 115V ac equipment
+8.0V +/- 0.6 Vrms ac for 230V ac equipment
+0.5V +/- 0.1 V de for 14 V de equipment.
+1.0V +/- 0.1 V de for 28 V de equipment
+9.0V +/- 0.9 V de for 270 V de equipment
+
+This voltage drop from the wiring to the EUT is to be measure within 7 inches (0.18 m)
+of the regulation point of the power source and within 7 inches (0.18 m) the EUTs input
+terminal.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+
+No reproduction or networking permilted without license from |HS
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Nol for Resale.2016-02-16 13:45:42 UTC
+16-41
+
+During the inrush test, with the appropriate series resistance to the EUT installed, the lab
+power source is to provide:
+
+105.5 to 122 Vrms ac,
+211 to 244 Vrms ac,
+11.5 to 15.2 V de,
+23.0 to 30.3 V de or
+244 to 285 V de
+
+as measured at the lab power source's regulation point.
+
+Test Condition 1:
+
+With the equipment stationary and unpowered for a minimum of 5 minutes, apply
+nominal input voltage and verify that the equipment meets the requirements of this
+section.
+
+Test Condition 2:
+
+With the equipment stabilized and in its maximum input current operating mode,
+reduce the input voltage to less than 5% of nominal for a period of 200 +20/-0
+msec and then apply nominal input voltage and verify that the equipment meets the
+requirements of this section.
+
+Notes:
+1. This test shall be performed with a frequency of:
+
+e 400 +5/-5 Hz for A(CF) category equipment
+
+° 360 +5/-0 Hz for variable frequency equipment then repeated with 650 +0/-5
+Hz for A(NF) category equipment and 800 +0/-5 Hz for A(WF) category
+equipment.
+
+2. Abrupt application or removal of ac power occurring at the zero crossing of the ac
+voltage waveform is considered to meet the rise time requirements.
+
+16.7.6 Current Modulation in Steady-State Operation (ac), Designation L
+
+16.7.6.1 Definition
+
+The following requirements shall be met for ac powered equipment with test designation
+L (as defined in section 16.2) AC powered equipment that meets an alternate test
+condition is to be marked with designation Z.
+
+Current Modulation is the cyclic variation, random variation, or both, about the mean
+level of the ac peak current that may occur during steady-state equipment operation.
+
+Any equipment which load current may modulate is potentially contributing to ac voltage
+modulation. Test designation L is intended for equipment with a maximum power
+consumption greater than 35 VA or a maximum total power consumption of all similar
+equipment type on airplane greater than 150 VA.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license fram IHS. Not for Resale.2016-02-16 13:45:42 UTC
+
+16-42
+
+16.7.6.2 Requirement
+
+Operate the equipment in the mode as determined by the equipment manufacturer that
+draws the maximum amount of input current modulation (i.e. the greatest variation of
+input peak to valley current as measured within a 500msec window.) from the electrical
+power source and with a voltage of 115 Vrms (see note | below) at its terminals and a
+frequency as specified in the note 2 below. If the equipment’s input current modulation
+does not vary with operating mode, operate the equipment in the mode that draws
+maximum steady state current.
+
+After the equipment has stabilized, at any time the value of the equipment line current
+modulation shall not exceed 0.28 peak to valley times the RMS value of the equipment
+maximum steady-state current for equipment of the same type < | kVA and 0.14 peak to
+valley times the RMS value for equipment maximum steady-state current >= 1 kVA. The
+load current is to be tested over at least three 500 msec long sweeps.
+
+Notes:
+
+1. The AC source used to supply the EUT shall be such that the value of the voltage
+modulation is equal to or less than 420 mV peak to valley, whatever the modulation
+frequency is between I Hz and the higher of 200 Hz and one half the fundamental
+line frequency, when this AC source supplies a resistive load drawing a current
+equal to the EUT maximum steady-state current.
+
+2. This test shall be performed with a frequency of:
+e 400 +5/-5 Hz for A(CF) category equipment
+
+e 360 +5/-0 Hz for variable frequency equipment then repeated with 650 +0/-5 Hz
+for A(NF) category equipment and 800 +0/-5 Hz for A(WF) category equipment.
+
+The following load demand variations are exempt from this requirement:
+
+LSS)
+
+e Initial start-up
+
+e Transition between operating modes.
+
+e Responses to changes in input voltage and frequency.
+e = Final shut-down.
+
+4, This test is not intended to monitor current changes above the fundamental line
+Jrequency.
+
+5. The current probe shall be dc coupled.
+
+6. If the equipment under test supplies other loads, those downstream loads should be
+
+either connected during the test or simulated in a manner that represents similar
+modulation characteristics
+
+16.7.7 DC Current Ripple tests (dc), Designation R
+
+16.7.7.1 Definition
+
+Current ripple is the cyclic variation, random variation, or both, about the mean level of
+the dc current that may occur during steady-state equipment operation. Any equipment
+with load current modulation is potentially contributing to de voltage ripple. The
+following requirements shall be met for dc powered equipment with test designation R
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+
+No reproduction or networking permitted without license from |HS
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+16-43
+
+(as defined in section 16.2). Equipment that does not test DC current ripple is to be
+marked with designation X.
+
+16.7.7.2 Requirement
+
+Operate the equipment in the mode that draws minimum and maximum steady-state
+current from the electrical power source used for this test, with a voltage of 28 V dc for
+28V networks and 270 V dc for 270V networks (see note 1 below). After the equipment
+has stabilized, the load current is to be tested over at least three 500 msec long sweeps If
+the difference between maximum and minimum steady state current is less than 25% of
+the maximum steady state current, only the maximum steady state current operating
+mode needs to be tested.
+
+28 V de equipment
+
+For equipment of the same type that draws a combined total power between 400 W
+and | kW, the peak to peak value of the individual equipment’s line current ripple
+shall not exceed 0.140 times of the individual equipment’s maximum load de
+current draw.
+
+For equipment of the same type that draws a combined total power greater than |
+kW, the peak to peak value of the individual equipment’s line current ripple shall
+not exceed 0.070 times of the individual equipment’s maximum load de current
+draw.
+
+270 V de equipment
+
+For equipment of the same type that draws a combined total power less than | kW,
+the peak to peak value of the individual equipment’s line current ripple shall not
+exceed 0.280 times of the individual equipment’s maximum load de current draw.
+
+For equipment of the same type that draws a combined total power between 1 kW
+and 10 kW, the peak to peak value of the individual equipment’s line current ripple
+shall not exceed 0.140 times of the individual equipment’s maximum load dc
+current draw.
+
+For equipment of the same type that draws a combined total power greater than 10
+kW, the peak to peak value of the individual equipment’s line current ripple shall
+not exceed 0.070 times of the individual equipment’s maximum load de current
+draw.
+
+Notes:
+
+1. The DC source used to supply the EUT shall have a voltage ripple that is
+equal to or less than 100 mV peak to peak for 28V networks and 1.00 V peak to
+peak for 270V networks, whatever the voltage ripple frequency is between I Hz
+and 200 Hz, when this DC source supplies a resistive load drawing a current
+equal to the EUT maximum steady-state current.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Cc
+
+No reproduction or networking permilted without license from |HS Not for Resale,2016-02-16 13:45:42 UTI
+16-44
+
+2. The following load demand variations are exempt from this requirement:
+e Initial start-up.
+e Transition between operating modes.
+e Responses to changes in input voltage.
+e = Final shut-down.
+
+3. This test is not intended to monitor current changes above 150 kHz (-3 dB
+point).
+4. The current probe is to be de coupled.
+
+16.7.8 Power Factor (All ac Equipment), Designation P
+
+16.7.8.1 Definition
+
+The following requirements shall be met for as powered equipment with test designation P
+(as defined in section 16.2). AC powered Equipment that does not meet the requirements of
+category P is to still be tested (report levels only) and is marked with test designation Z (other
+test criterion.)
+
+Power factor is the ratio of the real power, P (Watts), to the apparent power, S (volt-amperes)
+as is shown below.
+
+PF=
+
+tals
+
+¥
+
+P= UT VO * I(t)dt
+0
+
+S =Vrms * Irms
+
+This definition of power factor includes the effect of both displacement and distortion in the
+input current and voltage waveforms and is sometimes referred to as the true power factor.
+
+16.7.8.2 Requirement
+
+The EUT shall meet the power factor requirements when the power factor of the equipment is
+measured at the each of the following frequencies and two test voltages:
+
+A(CF) to be 400 +/- 1 Hz
+A(NF) to be 360 400 500 600 650 +/- 1 Hz
+
+A(WF) to be 360 400 500 600 650 700 800 +/- 1 Hz
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license wilh RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Nol for Resale,2016-02-16 13:45:42 UTC
+16-45
+
+Test Voltage | Supply Voltage Supply
+Single-Phase Voltage
+Three-Phase
+
+eee se
+Vrms | Vrms | Vrms | Vrms
+
+a) The steady-state full load power factor of motor loads shall be within the range
+given below:
+
+e The leading PF shall be greater than 0.980
+
+e The lagging PF shall be greater than 0 .700 for frequencies above
+500 Hz
+
+e The lagging PF shall be greater than the following for frequencies
+between 360 Hz and 500 Hz
+
+PF = 2.8571E-3 * Hz - 0.72857
+
+e The lagging PF shall be greater than 0.300 for frequencies of 360Hz
+and below.
+
+b) For all other AC load equipment the power factor shall be equal or higher than
+the values listed below. For loads with a maximum total power consumption of
+all similar equipment on the airplane greater than 150VA, the steady-state full
+load power factor for each load shall be between 0.800 lagging and 0.968
+leading.
+
+Load (KVA Power Factor - Leading Power Factor - Lagging
+0.200 0.200
+
+0.355 0.321
+0.464 0.406
+
+a
+0.728 0.613
+0.968 0.800
+e The leading PF between 0.02 kVA and 0.15 kVA is given by
+PF = 0.87765*log(kVA) + 1.69110
+
+e The lagging PF between 0.02 kVA and 0.15 kVA is given by
+PF = 0.68567*log(kVA) + 1.36493
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. : Order Number, 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-46
+
+Table 16-1 Test Conditions for All AC Equipment
+
+'
+!
+1
+!
+!
+!
+1
+
+Vom
+
+Vain [ % Of Vom]
+
+0 Volts eee é
+Notes:
+1. Definitions:
+Ti Power interrupt time.
+Tf Time it would take for the applied voltage to decay from Vow to Vian
+volts.
+Tr Time it would take for the applied voltage to rise from Vig to
+
+Vyon volts.
+Vian The minimum level (expressed as a percentage of Vyow) to which the
+applied voltage is required to decay.
+2. Time ( Ti, Tf, Tr ) is to be the larger of 1 msec or +10 % with respect to the
+
+straight line voltage intercepts.
+Test 1|2
+Condition
+
+PPP PEPE EET
+Tr <1 | 10} 17 19 | 20] 20 | 10} 25} 50} 43 |] 48 | 50 | 18} 20] 13 | 5 | <1} <l
+(mS)
+
+% Vom 50 | 15 | 10
+(Van )
+
+©2010. RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permilted wilhoul license from |HS Not for Resale,2016-02-16 13:45:42 UTC
+16-47
+
+Table 16-2 Additional Test Conditions for A (NF) and A(WF) Category Equipment
+
+V (NOM)
+
+9 VOLTS: oI
+
+Tr : Tj
+
+Notes:
+T; = time at 0 volts
+Ty = 20 ms
+ye = 5 ms
+Time (Ti, Tf Tr) is to be the larger of 1 msec or +10 % with respect to the straight
+line voltage intercepts.
+Fl = frequency of equipment voltage supply when t Sta
+F2 = frequency of equipment voltage supply when t = tp
+Test condition IV
+number
+FL) [ae [3a
+rau) | Faw | 360 | Fa Fax
+With = Fyyay = 650 Hz for A(NF) category equipment
+Fay = 800 Hz for A(WF) category equipment
+© 2010 RTCA, Inc.
+Copyright RTCA, Inc. Order Number: 02093010
+Provided by IHS under license wilh RTCA, Inc. Sold to;ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+
+No reproduction or networking permitted without license from IHS
+16-48
+
+Table 16-3 Test Conditions for DC Equipment with Digital Circuits
+
+Vyom
+
+Vain [ % Of Vom]
+
+‘ af
+0 Volts $$ °------------ ;
+Notes:
+d. Definitions:
+Ti Power interrupt time.
+Tf Time it would take for the applied voltage to decay from Vyoy to Visn
+volts.
+Tr Time it would take for the applied voltage to rise from Vyuy to
+
+Vyom volts.
+
+Vian The minimum level (expressed as a percentage of Vnow) to which the
+applied voltage is required to decay.
+
+2. Time (Ti, Tf, Tr ) is to be the larger of 1 msec or +10 % with respect to the
+straight line voltage intercepts.
+
+Test
+Condition
+Tr
+(ms)
+
+T,
+(ms)
+% Vom
+
+(Vaan )
+
+Tj <1
+(ms)
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number, 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Nol for Resale,2016-02-16 13:45:42 UTC
+16-49
+
+Table 16-4 Current Harmonic Limits for Single-Phase Electrical Equipment
+
+Table 16-5 Current Harmonic Limits for Balanced Three-Phase Electrical Equipment
+
+Even Harmonics > 4 (h= 6, 8, 10, ..., 40) Ty = 0.0025 Ty
+
+I,= maximum fundamental current of the equipment that is measured during the maximum
+steady-state power demand operating mode condition, at a single test frequency (*). This
+maximum current shall be used to calculate the current harmonic limits for all modes of
+operation, at that test frequency (*).
+
+(*) For test frequency values, refer to section 16.7.1.3
+h=_ order of harmonic.
+I= maximum harmonic current of order h obtained for all normal steady state modes of
+
+h
+operation.
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by |HS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-50
+
+Table 16-6 Test Designation H Test Condition 2 Compliance Table.
+
+A B C D= (B + C*1.25) E
+Current | Harmonics | Revised Current Current
+with 10mA limit Harmonics
+Harmonic | Harmonic | in Voltage Harmonic Emitted by Unit Test
+
+Order Reqmt's | Waveform Reqmt's Under Test Results
+(%) (%) (%) (%)
+0.55
+9.36
+0.29 -> 0.40
+9.73
+0.40
+6.37
+0.28 -> 0.40
+1.93
+0.26 > 0.40
+3.63
+
+0.29 -> 0.40
+
+iS)
+
+3
+4
+a
+6
+8
+9
+
+0.252 -> 0.40
+
+Column A identifies the harmonic order; for example, row 1, for A(CF) category equipment, is
+associated with the 800 Hz components of voltage and current (2 * 400 Hz). (For actual
+determination of load compliance with the harmonic requirements, the table should include data
+up to, and including, the 40" harmonic.)
+
+Column B lists the current harmonic requirements for a single phase load as determined from
+Table 16-4.
+
+Column C is an example of what the voltage harmonic components may be for an applied voltage
+whose total harmonic distortion is greater than five percent (as specified in the test condition 2).
+It is stressed that column C are example numbers only, in practice this column would contain the
+actual harmonic components of the applied voltage.
+
+Column D represents the allowed current harmonics for the EUT. The 10 mA limit is also applied
+at this point and relaxes the test limit for the 4, 8, 10, 12 and 40" harmonics. In this example, 10
+mA is 0.40% of fundamental and changes the 4" harmonic from failing to passing.
+
+Column E provides an example of current harmonic data for an item of equipment tested under
+the distorted voltage condition.
+
+Column F expresses whether the equipment has passed or failed the requirements for each
+specific harmonic. This is determined by the relationship between the current harmonics
+measured at the equipment input (column E) and the allowed current harmonics under distorted
+voltage input conditions (column D).
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number: 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permilted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-51
+
+Table 16-7 Test Conditions for DC Equipment with Digital and Memory Circuits
+
+Ti To Ts
+————— oO em
+
+Vyom
+
+= |.5ms maximum
+= 10ms or 50ms
+50% of Vnom
+
+OV
+
+Notes:
+vi Definitions:
+Vyom Nominal voltage
+Tl Duration of Ist interrupt (measured when voltage equals 50 % of Vyox)
+T3 Duration of 2™ interrupt (measured when voltage equals 50 % of Vyow
+
+ne Tolerance to Tl, T2, T3 = + 10% except for test conditions 1 and 2 where 9000 msec is a
+minimum.
+EF The rise and fall time "d" is measured between the 10% and 90% points of the waveform.
+
+| [ols] wf ol sof om] me] ols] rm] we] wf mf of
+
+ra
+fet Pett E dee dodo ft
+A, D, Z
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+
+Pp 2 tatats fof 7] sf] tofu] {is | v4 | ts [te | 17 |
+16-52
+
+V Peak to Valley
+
+P2s0-[ 5.00 |
+
+CAUTION:
+All mentioned voltage values are for 115 Vrms ai
+equipment multiply them by 2 for 230 Vrms ac
+
+MAXIMUM MODULATION ENVELOPE COMPONENTS
+VOLTS (PEAK TO VALLEY)
+
+FREQUENCY - Hz
+
+Note: The last tested frequency equals 200 Hz for A(CF) systems.
+The last tested frequency in the curve above changes from 200 Hz to be 1/2 the
+applied line frequency for A(WF) and A(NF) systems.
+
+PEAK
+
+VALLEY li
+il ill ldijanant Naa
+
+CREST FACTOR
+
+MODULATION ENVELOPE
+
+Figure 16-1 | Frequency Characteristics of AC Voltage Modulation Envelope
+
+© 2010 RTCA, Inc.
+
+Order Number. 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+16-53
+
+Minimum
+Frequency
+Deviation.
+
+Frequency Deviation (Hz)
+
+0.01 0.1 1 10 100
+Repetition Rate - Hz
+
+Figure 16-2 Characteristics of AC Frequency Modulation
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc, Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-54
+
+AC INPUT Pe TE EQUIPMENT
+POWER ADJUSTAB RISE
+VOLTAGE
+TRANSFORMER
+
+= Must be of sufficient volt-ampere capacity for equipment under test
+CIRCUIT A
+
+Note: Equipment under test will receive zero power during timer
+switching.
+
+EQUIPMENT
+UNDER
+
+VOLTMETER TEST
+
+CIRCUIT B
+
+Note: Circuit B is optional and can only be used when the source
+impedance is not critical to the equipment performance.
+
+Figure 16-3 AC Equipment Surge Voltage Test
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license wilh RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permilted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+Copyright RTCA, Inc.
+
+Provided by IHS under license with RTCA, Inc.
+No reproduction or networking permitted without license from IHS
+
+16-55
+
+BLOCKING
+DIODES
+
+EQUIPMENT
+UNDER
+TEST
+
+GND
+
+VOLTAGE TO BE APPLIED TO EUT
+
+VOLTAGE V0 | VOLTAGE V1 VOLTAGE V2
+waa OPEN CLOSED OPEN
+STATE OPEN OPEN CLOSED
+
+Notes:
+
+1. Adjust timing of the K1/K2 state configuration to meet the duration of the voltage surge
+according to paragraph 16.6.1.4 (normal surge voltage) or paragraph 16.6.2.4 (abnormal
+surge voltage.)
+
+2. K1 and K2 are to be actuated so that they are both closed at the start of the transition between
+V1 and V2.
+
+3. The voltage sources are to provide enough current to reach the required test voltage as
+measured at the input to the EUT.
+
+4. VO, V1 and V2 correspond to voltage values in the applicable test paragraphs. VO is always
+lower than V1 and V2.
+
+5. Optional resistors or active devices may exist from the cathodes of the diodes to ground to pull
+voltage down between voltage test steps.
+
+6. Alternate test equipment which provides the required waveforms may be used.
+Figure 16-4 | DC Equipment Surge Voltage Test
+
+© 2010 RTCA, Inc.
+
+Order Number: 02093010
+Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+Not for Resale,2016-02-16 13:45:42 UTC
+OLN SriS:EL 91-ZO-9L07'a]esexy 40} JON SHI Wod) esuaay jnouym payed Bupomjau 40 UoHONpoadal ON
+
+"BV QVHILAOVTIHANYNHN - [S2S01 68280] ONINSSNIONS SAVMUIV GVHIL3:9} Pios OU) WWO.LY WJM @susd}) J9PUN SH] Aq PapiAdid
+OLOE60ZO JequiNN J8p19 “DU “WO.LY IYBYAdoD,
+. 6
+out “VO.LA 0107 ©
+
+Sad.ing 33e}/0A [VULIOUGY DY JO edojaAUq=—s GS-9] DaNNSI
+
+SGNODHS - 3DYNS JO NOILVaNG
+OS OF OF 0? or 20 0 £0 0 LO 200 900 £00 <c00 0
+
+>
+(2)
+<
+= __| T T T T 0c 5
+“juawidinba *
+oe SWWA OFZ JOL Z Aq Wau} Ajdijjnw jusWdinbs s
+fs SUA GLL JO} ase sonjeA a6e}OA pouousw IIyPr Ov. i
+‘NOILNVS
+aS Sept 08
+Ws Toma OOL
+— oe es ee ee OZL
+OrL
+: UL | 091
+081
+LINK 39enNs
+(___________ + _1+___1_—_—__— 00¢
+
+95-91
+16-57
+
+28 V NOMINAL
+
+CAT B
+
+| |
+
+28 V NOMINAL
+
+28 V NOMINAL
+CAT Z
+
+CATA
+
+CAUTION:
+All mentioned voltage values are for 28 V dc
+equipment divide them by 2 for 14V dc V dc
+equipment.
+
+0.01 0.02 0.1 0.2 1.0 2.0 4.0 5.0
+TIME - SECONDS
+Note: Cat D has the same basic wave shape as Cat A.
+
+SURGE LIMITS
+
+1 2
+
+DC VOLTS
+
+378 40 48 345
+47 60 385
+
+a Ee
+
+42.5
+
+Figure 16-6 | Typical Abnormal DC Surge Voltage Characteristics
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [0482891 10575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Nol for Resale,2016-02-16 13:45:42 UTC
+16-58
+
+Harmonic analyzer and
+waveform display
+
+Current / voltage
+measuring device
+
+Equipment
+under test
+
+AC source
+
+Current Harmonic Measurement for Single Phase Equipment
+
+Harmonic analyzer and
+waveform display
+
+—>
+Current / voltage | ha
+measuring device
+Equipment
+
+Current / voltage
+2 under test
+
+source , ‘
+measuring device
+
+Current / voltage
+measuring device
+
+| neutral (if required)
+
+Current Harmonic Measurement for Three Phase Equipment
+
+Figure 16-7 Typical Current Harmonic Measurement Diagrams
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number, 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+16-59
+
+Optional inductance to increase
+source impedance
+
+Unit under
+test
+
+Source
+
+Non linear load bank
+
+=200uF+ 50uF
+
+Variable
+resistance
+load
+
+Voltage Distortion Production for Single Phase Equipment
+
+Optional inductance to
+increase source impedance
+
+Source
+
+Neutral conductor
+(if used during
+equipment
+operation)
+
+Voltage Distortion Production for Three Phase Equipment
+
+Figure 16-8 Typical Voltage Distortion Circuits for Harmonic Testing
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted withoul license from IHS Not for Resale,2016-02-16 13:45:42 UTC.
+16-60
+
+EQUIPMENT
+AC SOURCE } 3 UNDER TEST
+
+DC VOLTAGE OFFSET PRODUCTION FOR SINGLE-PHASE EQUIPMENT
+
+“E” corresponds to an adjustable DC voltage source. This source:
+
+e Shall be compatible with the EUT maximum steady-state rms current obtained for all normal
+modes of operation.
+
+e Shall create the following DC voltage offset on the AC source:
+® For 115V AC equipment: -0.200 +0/-0.040 V de and +0.200 +0.040/-0 V de.
+© For 230V AC equipment: -0.200 +0/-0.040 V dc and +0.200 +0.040/-0 V de.
+
+State of switches K1 to K4
+
+e Initial power-up of EUT:
+© KI and K2 (or K3 and K4) are closed in order not to submit E to the EUT inrush current.
+
+e Test Condition: Application of negative DC content on the AC source
+® KI and K4 are closed
+® K2 and K3 are open
+
+e Test Condition: Application of positive DC content on the AC source
+® KI and K4 are open
+© K2 and K3 are closed
+
+Figure 16-9 AC Single-Phase Equipment DC Offset Test
+
+© 2010 RTCA, Inc.
+Order Number. 02093010
+
+Copyright RTCA, Inc.
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Not for Resale.2016-02-16 13:45:42 UTC
+
+16-61
+
+Phase A } Phase A
+
+AC SOURCE ; EQUIPMENT
+UNDER TEST
+
+Phase B
+
+DC Voltage Offset Production for Three-Phase Equipment
+
+“EA”, “EB”, and “EC” correspond to adjustable DC voltage sources. These sources:
+
+e Shall be compatible with the EUT maximum steady-state rms current obtained for all normal modes of
+
+operation.
+
+e Shall create the following DC voltage offset on the AC source:
+© For 115V AC equipment: -0.200 +0/-0.040 V dc and +0.200 +0.040/-0 V de.
+® For 230V AC equipment: -0.200 +0/-0.040 V dc and +0.200 +0.040/-0 V de.
+
+State of switches KAI to KA4, KB1 to KB4 and KCI to KC4
+
+e Initial power-up of EUT:
+
+® KAI, KB1, KCI and KA2, KB2, KC2 (or KA3, KB3, KC3 and KA4, KB4, KC4) are closed in
+order not to submit EA, EB and EC to the EUT inrush current
+
+e Test Condition: Application of negative DC content on the AC source
+® KAI, KB1, KCI and KA4, KB4, KC4 are closed
+© KA2,KB2, KC2 and KA3, KB3, KC3 are open
+
+e Test Condition: Application of positive DC content on the AC source
+® KAI, KBI1, KCI and KA4, KB4, KC4 are open
+® KA2,KB2, KC2 and KA3, KB3, KC3 are closed
+
+Figure 16-10 AC Three-Phase Equipment DC Offset Test
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number: 02093010
+Provided by IHS under license wilh RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from |HS Not for Resale,2016-02-16 13:45:42 UTC
+16-62
+
+900
+Unbalance = 200 x (Load/1 000)”
+800
+‘ 700
+Ss
+x 600
+So
+S oe re en onc ee a Oc a Se oe ee oe ae
+¢ 500
+‘s E a ab ey an 25 : — a a a |
+5 300 - aon . —— iz ea a
+é |
+100
+0
+0 2 4 6 8 10 12 14 16 18 20
+Total Three-Phase Load kVA, kW or kVAR, for 115Vrms and 230Vrms Equipment.
+Figure 16-11 Allowable Phase Unbalance for Three Phase AC Loads
+Copyright RTCA, ine oe, Order Number. 02093010
+Provided by IHS under license wilh RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+
+16-63
+
+ENERGY CLAMP
+
+D3 STACK b2 |
+SEE NOTE 1 (SAME AS D1) |
+|
+
+|
+
+a EQUIPMENT
+UNDER
+TEST
+
+OPTIONAL :
+| PRELOAD 10 uF +4 10%
+| AND | NON-POLAR
+| CAPACITOR |
+
+1. The D3 zener / transorb stack shall have a measured reverse breakdown leakage current < 24
+mA at 24V +/- 1 V de as measured both before and after EUT testing. Uni-directional and/or
+bi-directional clamping devices may be used in the D3 stack.
+
+2. Both D1 and D2 shall be rated for greater than the maximum EUT current draw and both
+shall have a reverse recovery time less than 1.0 psec.
+
+3. The D3 zener / transorb stack shall be rated for a 1 msec pulse current greater than the EUT
+maximum current draw.
+
+4. Verify that potential ground loops through oscilloscope do not cause reading errors and/or
+damage to the oscilloscope.
+
+CAUTION:
+1. Potentially lethal voltages appear on both sides of the diodes and on the 10 uF capacitor.
+
+2. EUTs that fail this test may cause the test set-up to explode. Install and use appropriate
+electrical and mechanical safe guards before running this test.
+
+3. Before attempting to test an EUT for regenerated energy, verify with the EUT's manufacture
+that the EUT was designed to pass this test.
+
+Figure 16-12 270 V de Regenerated Energy Test Setup
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC.
+16-64
+
+This Page Intentionally Left Blank
+
+© 2010 RTCA, Inc.
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD AE,
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
