@@ -1,0 +1,179 @@
+RTCA, Incorporated
+1828 L Street, NW, Suite 805
+Washington, DC 20036, USA
+
+Environmental Conditions and Test
+Procedures for Airborne Equipment
+
+RTCA DO-160G Prepared by SC-135
+Supersedes DO-160F © 2010, RTCA, Inc.
+December 8, 2010
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS. Not for Resale,2016-02-16 13:45:42 UTC
+Copies of this document may be obtained from
+
+RTCA, Inc,
+1828 L Street, NW, Suite 805
+Washington, DC 20036-5133, USA
+
+Telephone: 202-833-9339
+Facsimile: 202-833-9434
+Internet: www.rtca.org
+
+Please call RTCA for price and ordering information.
+
+Copyright RTCA, Inc. Order Number, 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Not for Resale,2016-02-16 13:45:42 UTC
+Copyright RTCA, Inc.
+
+Foreword
+
+This document was prepared by Special Committee 135 (SC-135) and approved by the RTCA
+Program Management Committee (PMC) on December 8, 2010. It supersedes RTCA DO-160F
+dated December 6, 2007.
+
+RTCA, Incorporated is a not-for-profit corporation formed to advance the art and science of
+aviation and aviation electronic systems for the benefit of the public. The organization functions
+as a Federal Advisory Committee and develops consensus based recommendations on
+contemporary aviation issues. RTCA’s objectives include but are not limited to:
+
+° coalescing aviation system user and provider technical requirements in a manner that
+helps government and industry meet their mutual objectives and responsibilities;
+
+° analyzing and recommending solutions to the system technical issues that aviation faces
+as it continues to pursue increased safety, system capacity and efficiency;
+
+° developing consensus on the application of pertinent technology to fulfill user and
+provider requirements, including development of minimum operational performance
+standards for electronic systems and equipment that support aviation; and
+
+° assisting in developing the appropriate technical material upon which positions for the
+International Civil Aviation Organization and the International Telecommunications
+Union and other appropriate international organizations can be based.
+
+The organization’s recommendations are often used as the basis for government and private
+sector decisions as well as the foundation for many Federal Aviation Administration technical
+Standard Orders.
+
+Since RTCA is not an official agency of the United States Government, its recommendations may
+not be regarded as statements of official government policy unless so enunciated by the U.S.
+government organization or agency having statutory jurisdiction over any matters to which the
+recommendations relate.
+
+These standards were coordinated by RTCA SC-135 with the European Organisation for Civil
+Aviation Equipment (EUROCAE). EUROCAE concurs with RTCA on the environmental
+conditions and test procedures set forth herein. When approved by EUROCAE, this document
+will be identified jointly as RTCA DO-160G/EUROCAE ED-14G.
+
+i
+
+Order Number. 02093010
+
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [048289110575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted without license from IHS Not for Resale.2016-02-16 13:45:42 UTC
+This Page Intentionally Left Blank.
+
+Copyright RTCA, Inc. Order Number: 02093010
+Provided by IHS under license with RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [0482891 10575] - MKURUVILLA@ETIHAD.AE,
+No reproduction or networking permitted withoul license from IHS. Not for Resale,2016-02-16 13:45:42 UTC
+Foreword ..........0.
+Table of Contents
+
+Section 1.0
+Section 2.0
+Section 3.0
+Section 4.0
+Section 5.0
+Section 6.0
+Section 7.0
+Section 8.0
+Section 9.0
+Section 10.0
+Section 11.0
+Section 12.0
+Section 13.0
+Section 14.0
+Section 15.0
+Section 16.0
+Section 17.0
+Section 18.0
+Section 19.0
+Section 20.0
+Section 21.0
+Section 22.0
+Section 23.0
+Section 24.0
+Section 25.0
+Section 26.0
+
+Appendix A
+Appendix B
+Appendix C
+
+Note:
+
+Table of Contents
+
+Purpose and Applicability
+
+Definitions of Terms - General
+
+Conditions of Tests
+
+Temperature and Altitude
+
+Temperature Variation
+
+Humidity
+
+Operational Shocks and Crash Safety
+Vibration
+
+Explosion Proofness
+
+Waterproofness
+
+Fluids Susceptibility
+
+Sand and Dust
+
+Fungus Resistance
+
+Salt Spray
+
+Magnetic Effect
+
+Power Input
+
+Voltage Spike
+
+Audio Frequency Conducted Susceptibility - Power Inputs
+Induced Signal Susceptibility
+
+Radio Frequency Susceptibility (Radiated and Conducted)
+Emission of Radio Frequency Energy
+Lightning Induced Transient Susceptibility
+Lightning Direct Effects
+
+Icing
+
+Electrostatic Discharge
+
+Fire, Flammability
+
+Environmental Test Identification
+Membership
+Change Coordinators
+
+Detailed Tables of Contents appear on the inside of most sections.
+
+iti
+
+Copyright RTCA, Inc. Order Number. 02093010
+Provided by IHS under license wilh RTCA, Inc. Sold to:ETIHAD AIRWAYS ENGINEERING [0482891 10575] - MKURUVILLA@ETIHAD.AE,
+
+No reproduction or networking permitted without license from IHS Nol for Resale,2016-02-16 13:45:42 UTC.

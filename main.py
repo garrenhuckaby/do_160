@@ -2,17 +2,19 @@ import os
 import fitz
 import pytesseract
 from pdf2image import convert_from_path
+from tkinterdnd2 import DND_FILES, TkinterDnD
+from tkinter import messagebox, Label
 
 # --- Config ---
-PDF_PATH      = r"C:\Users\a02330649\Desktop\Life\DO-160G\Document_Cloud\waterproof.pdf"
-OUTPUT_FILE   = r"C:\Users\a02330649\Desktop\Life\DO-160G\extracted_text.txt"
+OUTPUT_FILE   = r"C:\Users\a02330649\Desktop\Life\do_160\extracted_text.txt"
 TESSERACT     = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 POPPLER       = r"C:\Users\a02330649\AppData\Local\poppler\poppler-25.12.0\Library\bin"
+LOGO_PATH     = r"C:\Users\a02330649\Downloads\logoBat-removebg-preview.png"
 
 pytesseract.pytesseract.tesseract_cmd = TESSERACT
 
 def extract_text(pdf_path: str) -> str:
-    """Extract text from PDF, falling back to OCR if needed."""
+    """Your original extraction logic."""
     doc = fitz.open(pdf_path)
     text = "".join(page.get_text() for page in doc)
     doc.close()
@@ -22,26 +24,39 @@ def extract_text(pdf_path: str) -> str:
 
     print("No text detected. Running OCR via Tesseract...")
     images = convert_from_path(pdf_path, dpi=300, poppler_path=POPPLER)
-    ocr_text = ""
-    for i, image in enumerate(images):
-        print(f"  OCR on page {i+1}/{len(images)}...")
-        ocr_text += pytesseract.image_to_string(image)
-    return ocr_text
+    return "".join(pytesseract.image_to_string(img) for img in images)
 
-def main():
-    if not os.path.exists(PDF_PATH):
-        print(f"Error: Could not find PDF: {PDF_PATH}")
+def handle_drop(event):
+    # Clean the path (removes braces added by Windows/Tkinter for paths with spaces)
+    pdf_path = event.data.strip('{}')
+    
+    if not pdf_path.lower().endswith('.pdf'):
+        messagebox.showerror("Error", "Please drop a PDF file.")
         return
+
+    label.config(text=f"Processing: {os.path.basename(pdf_path)}...")
+    root.update()
 
     try:
-        text = extract_text(PDF_PATH)
+        text = extract_text(pdf_path)
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.write(text)
+        messagebox.showinfo("Success", f"Done! Saved to:\n{OUTPUT_FILE}")
     except Exception as e:
-        print(f"Failed: {e}")
-        return
+        messagebox.showerror("Error", f"Failed: {e}")
+    finally:
+        label.config(text="Drop another PDF here")
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(text)
-    print(f"Done! Saved to {OUTPUT_FILE}")
+# --- GUI Setup ---
+root = TkinterDnD.Tk()
+root.title("PDF OCR Dropzone")
+root.geometry("400x250")
 
-if __name__ == "__main__":
-    main()
+label = Label(root, text="Drop PDF file here", padx=10, pady=50, relief="groove", borderwidth=2)
+label.pack(expand=True, fill="both", padx=20, pady=20)
+
+# Register the label as a drop target
+label.drop_target_register(DND_FILES)
+label.dnd_bind('<<Drop>>', handle_drop)
+
+root.mainloop()
