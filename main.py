@@ -1,61 +1,70 @@
 import os
-import fitz
-import pytesseract
-from pdf2image import convert_from_path
+from docling.document_converter import DocumentConverter
 from tkinterdnd2 import DND_FILES, TkinterDnD
 from tkinter import messagebox, Label
+from pathlib import Path
 
 # --- Config ---
-OUTPUT_FILE   = r"C:\Users\a02330649\Desktop\Life\do_160\extracted_text.txt"
-TESSERACT     = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-POPPLER       = r"C:\Users\a02330649\AppData\Local\poppler\poppler-25.12.0\Library\bin"
-LOGO_PATH     = r"C:\Users\a02330649\Downloads\logoBat-removebg-preview.png"
+OUTPUT_MD = Path.home() / "Downloads" / "do160" / "processed_doc.md"
 
-pytesseract.pytesseract.tesseract_cmd = TESSERACT
-
-def extract_text(pdf_path: str) -> str:
-    """Your original extraction logic."""
-    doc = fitz.open(pdf_path)
-    text = "".join(page.get_text() for page in doc)
-    doc.close()
-
-    if len(text.strip()) >= 10:
-        return text
-
-    print("No text detected. Running OCR via Tesseract...")
-    images = convert_from_path(pdf_path, dpi=300, poppler_path=POPPLER)
-    return "".join(pytesseract.image_to_string(img) for img in images)
+# Initialize Docling Converter (this loads the local AI models)
+converter = DocumentConverter()
 
 def handle_drop(event):
-    # Clean the path (removes braces added by Windows/Tkinter for paths with spaces)
     pdf_path = event.data.strip('{}')
     
     if not pdf_path.lower().endswith('.pdf'):
         messagebox.showerror("Error", "Please drop a PDF file.")
         return
 
-    label.config(text=f"Processing: {os.path.basename(pdf_path)}...")
+    label.config(text="AI is analyzing layout (Tables/Charts)...")
     root.update()
 
     try:
-        text = extract_text(pdf_path)
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(text)
-        messagebox.showinfo("Success", f"Done! Saved to:\n{OUTPUT_FILE}")
+        # Docling does the heavy lifting here:
+        # It identifies text, tables, and figures automatically.
+        result = converter.convert(pdf_path)
+        
+        # We export to Markdown because it's the best format for Vector Search
+        markdown_output = result.document.export_to_markdown()
+
+        with open(OUTPUT_MD, "w", encoding="utf-8") as f:
+            f.write(markdown_output)
+            
+        messagebox.showinfo("Success", f"AI-Ready Markdown saved to:\n{OUTPUT_MD}")
     except Exception as e:
-        messagebox.showerror("Error", f"Failed: {e}")
+        messagebox.showerror("Error", f"AI Parsing failed: {e}")
     finally:
-        label.config(text="Drop another PDF here")
+        label.config(text="Drop another PDF for AI Vectorization")
+
+def process_with_vision_tracking(pdf_path):
+    result = converter.convert(pdf_path)
+    
+    # 1. Iterate through the "Layout Objects" Docling found
+    for element, level in result.document.iterate_items():
+        # Get the page number for THIS specific piece of text or image
+        page_num = element.prov[0].page_no if element.prov else "Unknown"
+        
+        if element.label == "picture":
+            print(f"--- Found Image on Page {page_num} ---")
+            # Here you would:
+            # 1. Export the 'element' as an image
+            # 2. Run your Vision AI on it
+            # 3. Insert the description into your text record
+            
+        elif element.label == "table":
+            print(f"--- Found Table on Page {page_num} ---")
+            # Tables are best kept as Markdown or JSON
 
 # --- GUI Setup ---
 root = TkinterDnD.Tk()
-root.title("PDF OCR Dropzone")
-root.geometry("400x250")
+root.title("Docling AI Processor")
+root.geometry("400x300")
 
-label = Label(root, text="Drop PDF file here", padx=10, pady=50, relief="groove", borderwidth=2)
+label = Label(root, text="Drag & Drop PDF\n(Detects Charts, Tables, & Text)", 
+              padx=10, pady=50, relief="groove", borderwidth=2, font=("Arial", 10, "bold"))
 label.pack(expand=True, fill="both", padx=20, pady=20)
 
-# Register the label as a drop target
 label.drop_target_register(DND_FILES)
 label.dnd_bind('<<Drop>>', handle_drop)
 
