@@ -23,4 +23,4 @@ print(f"T4 GPU Active: {torch.cuda.is_available()}")
 %cd /content/do_160
 !git add .
 !git commit -m "trying to push from google colab FOR THE FINAL TIME"
-!git push https://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@github.com/garrenhuckaby/do_160.git
+!git push https://ghp_ZnQzpeNOTASECRETiom4DG2mwY7TEPPkFDTS9lM43FCyl2@github.com/garrenhuckaby/do_160.git
