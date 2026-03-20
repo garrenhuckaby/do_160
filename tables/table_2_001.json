@@ -1,0 +1,194 @@
+[
+  {
+    "0":"8.0",
+    "1":"VIBRATION.",
+    "2":"",
+    "3":"8-1"
+  },
+  {
+    "0":"",
+    "1":"8.1",
+    "2":"Purpose of the Tests",
+    "3":"8-1"
+  },
+  {
+    "0":"",
+    "1":"8.2",
+    "2":"Applicability",
+    "3":"8-1"
+  },
+  {
+    "0":"",
+    "1":"8.2.1 Vibration Test Category Definitions",
+    "2":"8.2.1 Vibration Test Category Definitions",
+    "3":"8-1"
+  },
+  {
+    "0":"",
+    "1":"8.2.1.1 Standard Vibration Test (Category S)",
+    "2":"8.2.1.1 Standard Vibration Test (Category S)",
+    "3":"8-1"
+  },
+  {
+    "0":"",
+    "1":"",
+    "2":"8.2.1.2 Robust Vibration Test (Categories R, U, U2)",
+    "3":""
+  },
+  {
+    "0":"",
+    "1":"8.2.1.3 High-Level, Short Duration Vibration Test (Categories H, Z)",
+    "2":"8.2.1.3 High-Level, Short Duration Vibration Test (Categories H, Z)",
+    "3":"8-1"
+  },
+  {
+    "0":"",
+    "1":"8.2.2 Test Curve Test Level Selection",
+    "2":"8.2.2 Test Curve Test Level Selection",
+    "3":"8-2"
+  },
+  {
+    "0":"",
+    "1":"8.2.2.1 Test Description _",
+    "2":"8.2.2.1 Test Description _",
+    "3":"8-2"
+  },
+  {
+    "0":"",
+    "1":"Test Curves",
+    "2":"Test Curves",
+    "3":"8-2"
+  },
+  {
+    "0":"8.3",
+    "1":"Vibration Test Requirements",
+    "2":"Vibration Test Requirements",
+    "3":"8-3"
+  },
+  {
+    "0":"8.4",
+    "1":"Vibration Test Level Requirements",
+    "2":"Vibration Test Level Requirements",
+    "3":"8-4"
+  },
+  {
+    "0":"",
+    "1":"8.4.1 Control Level Tolerance Requirements .",
+    "2":"8.4.1 Control Level Tolerance Requirements .",
+    "3":"8-4"
+  },
+  {
+    "0":"",
+    "1":"8.4.1.1 Sinusoidal Control Input .",
+    "2":"8.4.1.1 Sinusoidal Control Input .",
+    "3":"8-4"
+  },
+  {
+    "0":"",
+    "1":"8.4.1.2 Random Control Input",
+    "2":"8.4.1.2 Random Control Input",
+    "3":"8-4"
+  },
+  {
+    "0":"",
+    "1":"8.4.2 Measurement of Acceleration Power Spectral Density _",
+    "2":"8.4.2 Measurement of Acceleration Power Spectral Density _",
+    "3":"8-4"
+  },
+  {
+    "0":"",
+    "1":"8.4.2.1  Analog Analyzer Requirements _",
+    "2":"8.4.2.1  Analog Analyzer Requirements _",
+    "3":"8-4"
+  },
+  {
+    "0":"",
+    "1":"8.4.2.2 Digital Analyzer Requirements",
+    "2":"8.4.2.2 Digital Analyzer Requirements",
+    "3":"8-5"
+  },
+  {
+    "0":"",
+    "1":"8.5 Standard Vibration Test Procedure-Fixed Aircraft. Wing",
+    "2":"8.5 Standard Vibration Test Procedure-Fixed Aircraft. Wing",
+    "3":"8-5"
+  },
+  {
+    "0":"",
+    "1":"Sinusoidal Test Procedure",
+    "2":"Sinusoidal Test Procedure",
+    "3":"8-5"
+  },
+  {
+    "0":"",
+    "1":"Random Test Procedure",
+    "2":"Random Test Procedure",
+    "3":"8-6"
+  },
+  {
+    "0":"",
+    "1":"8.5.2 8.6 High-Level, Short Duration Vibration Test Procedure _",
+    "2":"8.5.2 8.6 High-Level, Short Duration Vibration Test Procedure _",
+    "3":"8-6"
+  },
+  {
+    "0":"8.7",
+    "1":"Robust Vibration Test Procedure-Fixed - Aircraft. Wing",
+    "2":"Robust Vibration Test Procedure-Fixed - Aircraft. Wing",
+    "3":"8-6"
+  },
+  {
+    "0":"",
+    "1":"8.7.1 Sinusoidal Test Procedure",
+    "2":"8.7.1 Sinusoidal Test Procedure",
+    "3":"8-6"
+  },
+  {
+    "0":"",
+    "1":"8.7.2 Random Test Procedure",
+    "2":"8.7.2 Random Test Procedure",
+    "3":"8-7"
+  },
+  {
+    "0":"8.8",
+    "1":"Vibration Test for Helicopters",
+    "2":"Vibration Test for Helicopters",
+    "3":"8-8"
+  },
+  {
+    "0":"",
+    "1":"",
+    "2":"",
+    "3":"8-8"
+  },
+  {
+    "0":"",
+    "1":"8.8.1 Sine-on-Random Test Procedure Known Helicopter Frequencies",
+    "2":"8.8.1 Sine-on-Random Test Procedure Known Helicopter Frequencies",
+    "3":"8-8"
+  },
+  {
+    "0":"",
+    "1":"8.8.1.1 Test Frequencies",
+    "2":"8.8.1.1 Test Frequencies",
+    "3":"8-8"
+  },
+  {
+    "0":"",
+    "1":"8.8.1.2 Sine and Random Test Levels",
+    "2":"8.8.1.2 Sine and Random Test Levels",
+    "3":""
+  },
+  {
+    "0":"",
+    "1":"8.8.1.3   Procedure",
+    "2":"8.8.1.3   Procedure",
+    "3":"8-9"
+  },
+  {
+    "0":"",
+    "1":"8.8.2 Sine-on-Random Test Procedure for Category U Unknown Helicopter Frequencies..",
+    "2":"8.8.2 Sine-on-Random Test Procedure for Category U Unknown Helicopter Frequencies..",
+    "3":"8-10"
+  }
+]

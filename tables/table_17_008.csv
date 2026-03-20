@@ -1,0 +1,8 @@
+HELICOPTER VIBRATION TEST CURVE TEST LEVELS (ENDURANCE).Test (1) Frequency.Range; Hz,"HELICOPTER VIBRATION TEST CURVE TEST LEVELS (ENDURANCE).Sinusoidal Test Levels, An, (g-PK) (2).","HELICOPTER VIBRATION TEST CURVE TEST LEVELS (ENDURANCE).Sinusoidal Test Levels, An, (g-PK) (2).H","HELICOPTER VIBRATION TEST CURVE TEST LEVELS (ENDURANCE).Sinusoidal Test Levels, An, (g-PK) (2).","HELICOPTER VIBRATION TEST CURVE TEST LEVELS (ENDURANCE).Sinusoidal Test Levels, An, (g-PK) (2)."
+3 < fn < 10,0.05 x fn,0.07 x fn,0.1 x fn,0.2 x fn
+10 < fn < 20,(0.2 x fn)-1.5,(0.28 x fn) = 2.1,(0.3 x fn) = 2,(0.3xfn) = 1
+20 < fn < 40,2.5,3.5,4.00,5.00
+40 < fn < 200,2.5,3.5,(0.1 x fn),5.00
+200 < fn < 2000,,,20.00,
+PSD,Random curve level (g'/Hz (Grms)),Random curve level (g'/Hz (Grms)),Random curve level (g'/Hz (Grms)),Random curve level (g'/Hz (Grms))
+Wo,0.02 (3.89),0.02 (3.89),0.02 (3.89),0.02 (3.89)

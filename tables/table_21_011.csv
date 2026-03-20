@@ -1,0 +1,7 @@
+Test Levels at test curve frequency_break_points.,Test Levels at test curve frequency_break_points.10,Test Levels at test curve frequency_break_points.28,Test Levels at test curve frequency_break_points.31,Test Levels at test curve frequency_break_points.40,Test Levels at test curve frequency_break_points.51.7,Test Levels at test curve frequency_break_points.100,Test Levels at test curve frequency_break_points.200,Test Levels at test curve frequency_break_points.250,Test Levels at test curve frequency_break_points.500,Test Levels at test curve frequency_break_points.2000
+B12,0.012,,,0.012,,0.002,,,0.002,0.00013
+B1,0.024,,,0.024,,0.004,,,0.004,0.00026
+B4,0.040,,0.040,,,0.004,,,0.004,0.00026
+C1,0.024,,,0.024,0.040,,,,0.040,0.0026
+D1,0.040,0.040,,0.080,,,,0.080,0.160,0.040
+E1,0.040,0.040,,0.080,,0.080,0.160,,0.160,0.011

@@ -1,0 +1,80 @@
+[
+  {
+    "Test Levels at test curve_frequency_break points_.":"B2",
+    "Test Levels at test curve_frequency_break points_.10":"0.003",
+    "Test Levels at test curve_frequency_break points_.28":"",
+    "Test Levels at test curve_frequency_break points_.31":"",
+    "Test Levels at test curve_frequency_break points_.40":"0.003",
+    "Test Levels at test curve_frequency_break points_.51.7":"",
+    "Test Levels at test curve_frequency_break points_.100":"0.0005",
+    "Test Levels at test curve_frequency_break points_.200":"",
+    "Test Levels at test curve_frequency_break points_.250":"",
+    "Test Levels at test curve_frequency_break points_.500":"0.0005",
+    "Test Levels at test curve_frequency_break points_.2000":"0.000032"
+  },
+  {
+    "Test Levels at test curve_frequency_break points_.":"B",
+    "Test Levels at test curve_frequency_break points_.10":"0.012",
+    "Test Levels at test curve_frequency_break points_.28":"",
+    "Test Levels at test curve_frequency_break points_.31":"",
+    "Test Levels at test curve_frequency_break points_.40":"0.012",
+    "Test Levels at test curve_frequency_break points_.51.7":"",
+    "Test Levels at test curve_frequency_break points_.100":"0.002",
+    "Test Levels at test curve_frequency_break points_.200":"",
+    "Test Levels at test curve_frequency_break points_.250":"",
+    "Test Levels at test curve_frequency_break points_.500":"0.002",
+    "Test Levels at test curve_frequency_break points_.2000":"0.00013"
+  },
+  {
+    "Test Levels at test curve_frequency_break points_.":"B3",
+    "Test Levels at test curve_frequency_break points_.10":"0.020",
+    "Test Levels at test curve_frequency_break points_.28":"",
+    "Test Levels at test curve_frequency_break points_.31":"0.020",
+    "Test Levels at test curve_frequency_break points_.40":"",
+    "Test Levels at test curve_frequency_break points_.51.7":"",
+    "Test Levels at test curve_frequency_break points_.100":"0.002",
+    "Test Levels at test curve_frequency_break points_.200":"",
+    "Test Levels at test curve_frequency_break points_.250":"",
+    "Test Levels at test curve_frequency_break points_.500":"0.002",
+    "Test Levels at test curve_frequency_break points_.2000":"0.00013"
+  },
+  {
+    "Test Levels at test curve_frequency_break points_.":"C",
+    "Test Levels at test curve_frequency_break points_.10":"0.012",
+    "Test Levels at test curve_frequency_break points_.28":"",
+    "Test Levels at test curve_frequency_break points_.31":"",
+    "Test Levels at test curve_frequency_break points_.40":"0.012",
+    "Test Levels at test curve_frequency_break points_.51.7":"0.020",
+    "Test Levels at test curve_frequency_break points_.100":"",
+    "Test Levels at test curve_frequency_break points_.200":"",
+    "Test Levels at test curve_frequency_break points_.250":"",
+    "Test Levels at test curve_frequency_break points_.500":"0.020",
+    "Test Levels at test curve_frequency_break points_.2000":"0.00126"
+  },
+  {
+    "Test Levels at test curve_frequency_break points_.":"D",
+    "Test Levels at test curve_frequency_break points_.10":"0.020",
+    "Test Levels at test curve_frequency_break points_.28":"0.020",
+    "Test Levels at test curve_frequency_break points_.31":"",
+    "Test Levels at test curve_frequency_break points_.40":"0.040",
+    "Test Levels at test curve_frequency_break points_.51.7":"",
+    "Test Levels at test curve_frequency_break points_.100":"",
+    "Test Levels at test curve_frequency_break points_.200":"",
+    "Test Levels at test curve_frequency_break points_.250":"0.040",
+    "Test Levels at test curve_frequency_break points_.500":"0.080",
+    "Test Levels at test curve_frequency_break points_.2000":"0.020"
+  },
+  {
+    "Test Levels at test curve_frequency_break points_.":"E",
+    "Test Levels at test curve_frequency_break points_.10":"0.020",
+    "Test Levels at test curve_frequency_break points_.28":"0.020",
+    "Test Levels at test curve_frequency_break points_.31":"",
+    "Test Levels at test curve_frequency_break points_.40":"0.040",
+    "Test Levels at test curve_frequency_break points_.51.7":"",
+    "Test Levels at test curve_frequency_break points_.100":"0.040",
+    "Test Levels at test curve_frequency_break points_.200":"0.080",
+    "Test Levels at test curve_frequency_break points_.250":"",
+    "Test Levels at test curve_frequency_break points_.500":"0.080",
+    "Test Levels at test curve_frequency_break points_.2000":"0.00505"
+  }
+]

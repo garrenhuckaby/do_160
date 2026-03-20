@@ -1,0 +1,8 @@
+HELICOPTER VIBRATION TEST CURVE TEST LEVELS (PERFORMANCE).(1) Test Frequency.Range; Hz,"HELICOPTER VIBRATION TEST CURVE TEST LEVELS (PERFORMANCE).(2) Sinusoidal Test Levels; (g-PK) An,.","HELICOPTER VIBRATION TEST CURVE TEST LEVELS (PERFORMANCE).(2) Sinusoidal Test Levels; (g-PK) An,.H","HELICOPTER VIBRATION TEST CURVE TEST LEVELS (PERFORMANCE).(2) Sinusoidal Test Levels; (g-PK) An,.","HELICOPTER VIBRATION TEST CURVE TEST LEVELS (PERFORMANCE).(2) Sinusoidal Test Levels; (g-PK) An,."
+3 < fn < 10,0.04 x fn,0.05 x fn,0.08 x fn,0.17 x fn
+10 < fn < 20,0.04 x fn,0.05 x fn,0.08 x fn,4.2
+20 < fn < 40,0.04 x fn,0.05 x fn,0.08 x fn,4.2
+40 < fn < 200,1.6,2.5,0.08 x fn,4.2
+200 < fn < 2000,,,16.7,
+PSD,Random curve level (g'/Hz (Grms)),Random curve level (g'/Hz (Grms)),Random curve level (g'/Hz (Grms)),Random curve level (g'/Hz (Grms))
+Wo,0.01 (2.75),0.01 (2.75),0.01 (2.75),0.01 (2.75)

@@ -1,0 +1,7 @@
+Helicopter Zone_Vibration Test Frequencies,Helicopter Zone_Vibration Test Frequencies,Helicopter Zone_Vibration Test Frequencies,Helicopter Zone_Vibration Test Frequencies,Helicopter Zone_Vibration Test Frequencies,Helicopter Zone_Vibration Test Frequencies,Helicopter Zone_Vibration Test Frequencies
+Zone / Test Curve,a / G,Ib / G,2 / G,3 / H,,7 / J
+(1) Test Frequencies fn,Fuselage,Tail boom,Instrument Panel Console & Equipment Rack,Nacelle & Pylon,Engine & Gear Box,Empennage; & Fin Tip
+,NMxFM,NMxFM,NMxFM,NMxFM,NMxFM,NMxFM
+f,2xNMxFM,2xNMxFM,2xNMxFM,2xNMxFM,2xNMxFM,2xNMxFM
+,,NTxFT,,FE,FE,NTxFT
+fa,,2xNTxFT,,FG,FG,2xNTxFT

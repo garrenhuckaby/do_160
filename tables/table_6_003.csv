@@ -1,0 +1,6 @@
+Category,Aircraft Type,Standard Vibration,High Level Short Duration Vibration,Robust Vibration
+S,Wing,Hr/Axis sine Or random at Level perf,NA,NA
+H or Z,Fixed-Wing,NA,High g / low f sine sweep each axis,NA
+R,Fixed-Wing,NA,NA,Sine of 3 Hrs/Axis less 30 min/dwell (max 4 dwells) or Random at Level (minimum of 10 minutes) and 3 Hrs Endurance level (repeat in all 3 axes perf:
+Ror U,Helicopter,NA,NA,Sine-On-Random; 2 Hrs at Endurance levels plus dwells (max of 4 dwells; max of 3 hours total test time) and performance test (minimum of 10 minutes) at beginning and end of test period (repeat in all 3 axes). Test repeated 3 times for Category U.
+U2,Helicopter,NA,NA,"Random performance test at beginning and end of test period (minimum of 10 minutes) , 3 hrs at Endurance level (repeat in all 3 axes)"
