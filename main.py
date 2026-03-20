@@ -11,7 +11,7 @@ from docling.datamodel.pipeline_options import (
 )
 
 # --- Config ---
-INPUT_PDF = '/content/do_160/703931356-Rtca-Do-160g-part-7.pdf'
+INPUT_PDF = '/content/do_160/Document_Cloud/703931356-Rtca-Do-160g-part-7.pdf'
 OUTPUT_MD = '/content/do_160/output.md'
 
 def main():
