@@ -17,7 +17,7 @@ from docling_core.types.doc import ImageRefMode, PictureItem, TableItem, TextIte
 INPUT_PDF  = '/content/do_160/Document_Cloud/703931356-Rtca-Do-160g-part-7.pdf'
 OUTPUT_DIR = '/content/do_160/'
 OUTPUT_MD  = os.path.join(OUTPUT_DIR, 'output.md')
-IMAGES_DIR = os.path.join(OUTPUT_DIR, 'images')
+IMAGES_DIR = os.path.join(OUTPUT_DIR, 'images_wahoo')
 TABLES_DIR = os.path.join(OUTPUT_DIR, 'tables')
 
 # Items whose bounding box top-edge falls within this fraction of page height
